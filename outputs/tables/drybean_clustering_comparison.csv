@@ -1,0 +1,5 @@
+Configuration,Algorithm,Feature_Space,Silhouette_Score,Calinski_Harabasz_Index,Davies_Bouldin_Index,Silhouette_Score_ScaledSpace,Calinski_Harabasz_ScaledSpace,Davies_Bouldin_ScaledSpace,Cluster_Sizes
+Config 1: K-Means (Standardized),K-Means,Standardized (16D),0.3094,7848.44,1.0993,0.3094,7848.44,1.0993,"C0: 3111, C1: 541, C2: 3157, C3: 520, C4: 2480, C5: 2033, C6: 1769"
+Config 2: K-Means (PCA 4D),K-Means,"PCA (4D, 95.02% Var)",0.3277,9134.22,1.0328,0.3076,7817.26,1.1061,"C0: 519, C1: 3262, C2: 2476, C3: 2021, C4: 521, C5: 3042, C6: 1770"
+Config 3: GMM (Standardized),Gaussian Mixture Model,Standardized (16D),0.2898,6426.16,1.6592,0.2898,6426.16,1.6592,"C0: 3191, C1: 693, C2: 2836, C3: 520, C4: 2514, C5: 1984, C6: 1873"
+Config 4: GMM (PCA 4D),Gaussian Mixture Model,"PCA (4D, 95.02% Var)",0.302,7618.59,1.2245,0.2836,6650.89,1.3103,"C0: 1875, C1: 2699, C2: 522, C3: 1591, C4: 2547, C5: 3546, C6: 831"

@@ -1,0 +1,82 @@
+sample_id,error_type,true_label,true_label_name,predicted_label,predicted_label_name,predicted_probability,category,text_snippet,full_text,root_cause,actionable_remedy
+179,False Positive (Ham -> Spam),0,Ham,1,Spam,0.7771,Legitimate Service & Referral Invites,"Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more v...","Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more visit fullonsms.com","Message contains referral tokens like 'free sms', 'contact list', and web link 'www.fullonsms.com'. The unigram/bigram TF-IDF vectorizer assigns high positive spam weights to 'free sms' and 'visit', failing to recognize that this is an opt-in referral invitation between acquaintances.",Incorporate domain reputation scoring and distinguish peer-to-peer referral templates from unsolicited mass blasts.
+373,False Positive (Ham -> Spam),0,Ham,1,Spam,0.7613,Intimate Personal Messages with Explicit Lexicon,I to am looking forward to all the sex cuddling.. Only two more sleeps,I to am looking forward to all the sex cuddling.. Only two more sleeps,"Contains explicit romantic language ('sex cuddling', 'more sleeps'). In bag-of-words models, 'sex' heavily co-occurs with adult spam. The model lacks syntactic comprehension to discern an affectionate private exchange from commercial adult spam.",Utilize conversational context or sentiment/syntactic dependency parsing to differentiate personal affectionate tones from commercial solicitations.
+4106,False Positive (Ham -> Spam),0,Ham,1,Spam,0.8388,Colloquial Medical/Pharmaceutical Slang,"Subject: fw : danger of phenylpropanolamine
+- - - - - original message - - - - -
+from : jennifer glover [ mailto : jm . glover @ meritener...","Subject: fw : danger of phenylpropanolamine
+- - - - - original message - - - - -
+from : jennifer glover [ mailto : jm . glover @ meritenergy . com ]
+sent : friday , january 12 , 2001 10 : 33 am
+to : donellec @ earthlink . net ; rglover @ halff . com ;
+andrea . danielson @ risd . org ; don 91 lin @ xit . net
+subject : fwd : danger of phenylpropanolamine
+this is why rusty and i couldn ' t find any alkaseltzer in any stores ! ! !
+jennifer glover
+merit energy company
+senior property accountant
+( 972 ) 383 - 6519
+?
+from : tammy cooper
+to : a . harrington @ meritenergy . com , a . smith @ meritenergy . com ,
+amyc . smith @ meritenergy . com , claudia . breedlove @ meritenergy . com ,
+darcie . boughton @ meritenergy . com , jm . glover @ meritenergy . com ,
+lanna . bacchus @ meritenergy . com , mark . love @ meritenergy . com ,
+sara . burnett @ meritenergy . com , tom . buechel @ meritenergy . com
+subject : danger of phenylpropanolamine
+date : fri , 12 jan 2001 10 : 27 : 20 - 0600
+mime - version : 1 . 0
+x - mailer : internet mail service ( 5 . 5 . 2653 . 19 )
+content - type : multipart / alternative ;
+please forward this to the people you love .
+cvs has removed all products containing this chemical from their shelves .
+this was seen on the news both last night and this morning . thought it
+might be helpful for all of you to have the list . stop taking anything
+containing this ingredient . it has been linked to increased hemorrhagic
+stroke
+( bleeding in brain ) among women ages 18 - 49 in the three days after starting
+use of medication . problems were not found in men , but the fda recommended
+that everyone ( even children ) seek alternative medicine . the following
+medications contain :
+alka - seltzer plus children ' s cold medicine effervescent
+alka - seltzer plus cold medicine ( cherry or orange )
+alka - seltzer plus cold medicine original
+alka - seltzer plus cold & cough medicine effervescent
+alka - seltzer plus cold & flu medicine effervescent
+alka - seltzer plus cold & sinus effervescent
+alka seltzer plus night - time cold medicine effervescent
+bc allergy sinus cold powder
+bc sinus cold powder
+comtrex deep chest cold & congestion relief
+comtrex flu therapy & fever relief day & night
+contac 12 - hour cold capsules
+contac 12 hour caplets
+coricidin d cold , flu & sinus
+dimetapp cold & allergy chewable tablets
+dimetapp cold & cough liqui - gels
+dimetapp dm cold & cough elixir
+dimetapp elixir
+dimetapp 4 hour liqui gels
+dimetapp 4 hour tablets
+dimetapp 12 hour extentabs tablets
+naldecon dx pediatric drops
+permathene mega - 16
+robitussin cf
+tavist - d 12 hour relief of sinus & nasal congestion
+triaminic dm cough relief
+triaminic expectorant chest & head congestion
+triaminic syrup cold & allergy
+triaminic triaminicol cold & cough
+acutrim diet gum appetite suppressant plus diary supplements
+acutrim maximum strength appetite control
+dexatrim caffeine free
+dexatrim extended duration
+dexatrim gelcaps
+dexatrim vitamin c / caffeine free
+please discard any of these medications as soon as possible !","Mentions 'tablets' alongside colloquial body references. In text spam filters, pharmaceutical terms (tablets, pills, prescriptions) carry heavy spam priors due to widespread illicit pharmacy spam campaigns.",Sublinear TF discounting on isolated pharmaceutical terms and n-gram validation against sender-recipient relational history.
+25,False Positive (Ham -> Spam),0,Ham,1,Spam,0.7691,Ultra-Short Ambiguous SMS,Just normal only here :),Just normal only here :),Short message ('Just normal only here :)') with sparse vocabulary. Emoticons and short informal phrasing can produce skewed decision boundaries when rare token combinations match noisy training fold coefficients.,Implement a message length prior or minimum information threshold before applying aggressive spam classifications.
+534,False Positive (Ham -> Spam),0,Ham,1,Spam,0.6543,Short Conversational Punctuation Anomaly,No message..no responce..what happend?,No message..no responce..what happend?,Ellipses and typo 'responce' combined with lack of substantive content. The classifier's bias term and punctuation tokenization penalize non-standard syntax as spam-like urgency.,Normalize repeated punctuation (e.g. '..' -> '.') during tokenization and employ length-calibrated thresholding.
+193,False Negative (Spam -> Ham),1,Spam,0,Ham,0.0451,Adversarial Encoding & Complaint Camouflage,ASKED 3MOBILE IF 0870 CHATLINES INCLU IN FREE MINS. INDIA CUST SERVs SED YES. L8ER GOT MEGA BILL. 3 DONT GIV A SHIT. BAILIFF DUE IN DAYS. I ...,ASKED 3MOBILE IF 0870 CHATLINES INCLU IN FREE MINS. INDIA CUST SERVs SED YES. L8ER GOT MEGA BILL. 3 DONT GIV A SHIT. BAILIFF DUE IN DAYS. I O å£250 3 WANT å£800,"Spam text contains non-standard character encodings ('Û', 'å£250') and mimics a billing dispute or grievance against a mobile carrier ('3 DONT GIV A SHIT'). The angry customer persona bypasses standard promotional spam triggers.","Robust character encoding normalization (e.g., ftfy / regex currency mapping) and detecting premium-rate contact numbers (0870) via regex feature extraction."
+85,False Negative (Spam -> Ham),1,Spam,0,Ham,0.0755,Slang Chatline & Phonetic Evasion,Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XX...,Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs),"Contains intentional phonetic obfuscations and abbreviations ('filthyguys', 'slo n hard', 'Txt XXX', '4msg'). Because these words do not match common spam dictionary entries, word-level TF-IDF fails to recognize them as adult chatline solicitations.","Incorporate character n-grams (e.g., 3-to-5 char grams) or subword BPE tokenization to capture phonetic chatline patterns despite creative spelling."
+404,False Negative (Spam -> Ham),1,Spam,0,Ham,0.4229,Financial Pump-and-Dump Disguised as Research,Dorothy@kiefer.com (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBERS *****UP OVER 300% *********** Nasdaq Symbol CDGT That ...,Dorothy@kiefer.com (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBERS *****UP OVER 300% *********** Nasdaq Symbol CDGT That is a $5.00 per..,"Spam simulates legitimate financial newsletter / analyst report ('Dorothy@kiefer.com (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBERS... Nasdaq Symbol CDGT'). The corporate and equity research vocabulary closely matches benign business communications (e.g., Enron emails).","Engineered financial spam features: percentage yield claims ('UP OVER 300%'), OTC stock ticker symbol lookups, and sender address header validation (SPF/DKIM)."
+468,False Negative (Spam -> Ham),1,Spam,0,Ham,0.1855,Conversational Social Engineering Impersonation,"Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access to all the adult parties...","Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access to all the adult parties...","Begins with benign conversational greeting ('Hi this is Amy, we will be sending you a free phone number in a couple of days...'). The casual, polite introductory tone masks the subsequent adult party solicitation, keeping the overall bag-of-words score below the decision boundary.",Sequential transition modeling (e.g. RNN / Transformer or sentence-level maximum pooling) that detects abrupt transitions from casual greeting to call-to-action.
+332,False Negative (Spam -> Ham),1,Spam,0,Ham,0.2154,Supplier Disclaimer Mimicry,"0A$NETWORKS allow companies to bill for SMS, so they are responsible for their \suppliers\"" just as a shop has to give a guarantee on what t...","0A$NETWORKS allow companies to bill for SMS, so they are responsible for their \suppliers\"" just as a shop has to give a guarantee on what they sell. B. G.""","Written in the tone of a commercial policy statement or legal dispute regarding SMS billing liability ('allow companies to bill for SMS, so they are responsible for their suppliers...'). Lacks standard promotional imperatives ('buy', 'win', 'urgent').","Combine structural email metadata (originating gateway, relay hops) with NLP models to flag bulk disclaimers regardless of neutral phrasing."

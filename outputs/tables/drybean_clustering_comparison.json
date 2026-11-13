@@ -1,0 +1,138 @@
+{
+    "Config 1: K-Means (Standardized)": {
+        "algorithm": "K-Means",
+        "feature_space": "Standardized (16D)",
+        "metrics_in_algorithm_space": {
+            "silhouette_score": 0.3094,
+            "calinski_harabasz_index": 7848.44,
+            "davies_bouldin_index": 1.0993,
+            "cluster_sizes": {
+                "0": 3111,
+                "1": 541,
+                "2": 3157,
+                "3": 520,
+                "4": 2480,
+                "5": 2033,
+                "6": 1769
+            },
+            "n_clusters": 7
+        },
+        "metrics_in_standardized_space": {
+            "silhouette_score": 0.3094,
+            "calinski_harabasz_index": 7848.44,
+            "davies_bouldin_index": 1.0993,
+            "cluster_sizes": {
+                "0": 3111,
+                "1": 541,
+                "2": 3157,
+                "3": 520,
+                "4": 2480,
+                "5": 2033,
+                "6": 1769
+            },
+            "n_clusters": 7
+        }
+    },
+    "Config 2: K-Means (PCA 4D)": {
+        "algorithm": "K-Means",
+        "feature_space": "PCA (4D, 95.02% Var)",
+        "metrics_in_algorithm_space": {
+            "silhouette_score": 0.3277,
+            "calinski_harabasz_index": 9134.22,
+            "davies_bouldin_index": 1.0328,
+            "cluster_sizes": {
+                "0": 519,
+                "1": 3262,
+                "2": 2476,
+                "3": 2021,
+                "4": 521,
+                "5": 3042,
+                "6": 1770
+            },
+            "n_clusters": 7
+        },
+        "metrics_in_standardized_space": {
+            "silhouette_score": 0.3076,
+            "calinski_harabasz_index": 7817.26,
+            "davies_bouldin_index": 1.1061,
+            "cluster_sizes": {
+                "0": 519,
+                "1": 3262,
+                "2": 2476,
+                "3": 2021,
+                "4": 521,
+                "5": 3042,
+                "6": 1770
+            },
+            "n_clusters": 7
+        }
+    },
+    "Config 3: GMM (Standardized)": {
+        "algorithm": "Gaussian Mixture Model",
+        "feature_space": "Standardized (16D)",
+        "metrics_in_algorithm_space": {
+            "silhouette_score": 0.2898,
+            "calinski_harabasz_index": 6426.16,
+            "davies_bouldin_index": 1.6592,
+            "cluster_sizes": {
+                "0": 3191,
+                "1": 693,
+                "2": 2836,
+                "3": 520,
+                "4": 2514,
+                "5": 1984,
+                "6": 1873
+            },
+            "n_clusters": 7
+        },
+        "metrics_in_standardized_space": {
+            "silhouette_score": 0.2898,
+            "calinski_harabasz_index": 6426.16,
+            "davies_bouldin_index": 1.6592,
+            "cluster_sizes": {
+                "0": 3191,
+                "1": 693,
+                "2": 2836,
+                "3": 520,
+                "4": 2514,
+                "5": 1984,
+                "6": 1873
+            },
+            "n_clusters": 7
+        }
+    },
+    "Config 4: GMM (PCA 4D)": {
+        "algorithm": "Gaussian Mixture Model",
+        "feature_space": "PCA (4D, 95.02% Var)",
+        "metrics_in_algorithm_space": {
+            "silhouette_score": 0.302,
+            "calinski_harabasz_index": 7618.59,
+            "davies_bouldin_index": 1.2245,
+            "cluster_sizes": {
+                "0": 1875,
+                "1": 2699,
+                "2": 522,
+                "3": 1591,
+                "4": 2547,
+                "5": 3546,
+                "6": 831
+            },
+            "n_clusters": 7
+        },
+        "metrics_in_standardized_space": {
+            "silhouette_score": 0.2836,
+            "calinski_harabasz_index": 6650.89,
+            "davies_bouldin_index": 1.3103,
+            "cluster_sizes": {
+                "0": 1875,
+                "1": 2699,
+                "2": 522,
+                "3": 1591,
+                "4": 2547,
+                "5": 3546,
+                "6": 831
+            },
+            "n_clusters": 7
+        }
+    }
+}
