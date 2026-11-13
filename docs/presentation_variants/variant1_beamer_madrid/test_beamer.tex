@@ -1,0 +1,32 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+\usetheme{Madrid}
+\usecolortheme{whale}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\graphicspath{{figures/}{../../../outputs/figures/}}
+
+\title{Machine Learning Course Projects}
+\subtitle{Spam Email Detection \& Dry Bean Morphological Clustering}
+\author{Adam Dalwai}
+\date{November 13, 2026}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Project 1: Spam Detection Performance}
+\begin{columns}
+\column{0.55\textwidth}
+\begin{block}{Calibrated Linear SVM ($C=2.0$)}
+\begin{itemize}
+\item Accuracy: $0.9740 \pm 0.0053$
+\item Macro-F1: $0.9617 \pm 0.0079$
+\item Spam F1: \textbf{0.9401 $\pm$ 0.0123}
+\item Ham FPR: \textbf{0.0094} at $\tau=0.70$
+\end{itemize}
+\end{block}
+\column{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/spam_confusion_matrix.png}
+\end{columns}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,4104 @@
+{
+  "reports": [
+    {
+      "id": "report_v1_ieee",
+      "name": "Variant 1: IEEE Transactions (Double-Column)",
+      "path": "/Users/addie/repos/ML_Project/docs/latex_reports/variant1_ieee/report.pdf",
+      "type": "report",
+      "style_theme": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
+      "compliance": {
+        "total_pages": 5,
+        "ref_start_page": 5,
+        "pages_before_references": 4,
+        "max_allowed_pages": 6,
+        "page_count_compliant": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v1_ieee_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 44.2,
+            "top": 55.6,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 5262,
+            "text_blocks_count": 23,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "2. Project 1: Spam Email Detection",
+              "2.2. Experimental Design and Leakage Prevention",
+              "( 1 + \ud835\udc41"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 6,
+            "col2_boxes_count": 13,
+            "col1_vertical_span": 607.4,
+            "col2_vertical_span": 605.8,
+            "vertical_difference": 1.6
+          }
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v1_ieee_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.5,
+            "right": 31.4,
+            "top": 51.5,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4296,
+            "text_blocks_count": 29,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 26,
+                "rect": [
+                  69.4,
+                  440.3,
+                  275.5,
+                  616.9
+                ],
+                "width": 206.1,
+                "height": 176.6,
+                "centered": false
+              },
+              {
+                "xref": 29,
+                "rect": [
+                  313.9,
+                  394.5,
+                  434.5,
+                  441.9
+                ],
+                "width": 120.6,
+                "height": 47.4,
+                "centered": false
+              },
+              {
+                "xref": 31,
+                "rect": [
+                  444.6,
+                  368.2,
+                  565.2,
+                  441.9
+                ],
+                "width": 120.6,
+                "height": 73.7,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 17,
+            "col2_boxes_count": 11,
+            "col1_vertical_span": 565.1,
+            "col2_vertical_span": 562.4,
+            "vertical_difference": 2.7
+          }
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v1_ieee_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.4,
+            "right": 45.1,
+            "top": 51.8,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4732,
+            "text_blocks_count": 31,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Clustering"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 5,
+            "col2_boxes_count": 15,
+            "col1_vertical_span": 255.8,
+            "col2_vertical_span": 695.7,
+            "vertical_difference": 439.9
+          }
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v1_ieee_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 193.8,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4052,
+            "text_blocks_count": 16,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 49,
+                "rect": [
+                  46.8,
+                  122.7,
+                  212.7,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 51,
+                "rect": [
+                  223.1,
+                  46.8,
+                  388.9,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 53,
+                "rect": [
+                  399.3,
+                  46.8,
+                  565.2,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 9,
+            "col2_boxes_count": 6,
+            "col1_vertical_span": 524.6,
+            "col2_vertical_span": 527.2,
+            "vertical_difference": 2.6
+          }
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v1_ieee_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 50.7,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4453,
+            "text_blocks_count": 26,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 7,
+            "col2_boxes_count": 17,
+            "col1_vertical_span": 726.6,
+            "col2_vertical_span": 726.6,
+            "vertical_difference": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "report_v2_nature",
+      "name": "Variant 2: Nature / Springer Clean Editorial",
+      "path": "/Users/addie/repos/ML_Project/docs/latex_reports/variant2_nature/report.pdf",
+      "type": "report",
+      "style_theme": "Nature Machine Intelligence / Springer Editorial",
+      "compliance": {
+        "total_pages": 6,
+        "ref_start_page": 6,
+        "pages_before_references": 5,
+        "max_allowed_pages": 6,
+        "page_count_compliant": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v2_nature_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 44.2,
+            "top": 56.5,
+            "bottom": 14.1
+          },
+          "content_stats": {
+            "text_char_count": 4909,
+            "text_blocks_count": 24,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "2. Project 1: Spam Email Detection",
+              "2.2. Experimental Design and Leakage Prevention",
+              "( 1 + N"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 7,
+            "col2_boxes_count": 13,
+            "col1_vertical_span": 606.7,
+            "col2_vertical_span": 605.2,
+            "vertical_difference": 1.5
+          }
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v2_nature_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.5,
+            "right": 45.1,
+            "top": 51.7,
+            "bottom": 14.1
+          },
+          "content_stats": {
+            "text_char_count": 4230,
+            "text_blocks_count": 28,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 21,
+                "rect": [
+                  69.4,
+                  442.4,
+                  275.5,
+                  619.1
+                ],
+                "width": 206.1,
+                "height": 176.6,
+                "centered": false
+              },
+              {
+                "xref": 24,
+                "rect": [
+                  313.9,
+                  378.9,
+                  434.5,
+                  426.3
+                ],
+                "width": 120.6,
+                "height": 47.4,
+                "centered": false
+              },
+              {
+                "xref": 26,
+                "rect": [
+                  444.6,
+                  352.6,
+                  565.2,
+                  426.3
+                ],
+                "width": 120.6,
+                "height": 73.7,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 16,
+            "col2_boxes_count": 11,
+            "col1_vertical_span": 582.2,
+            "col2_vertical_span": 579.2,
+            "vertical_difference": 3.0
+          }
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v2_nature_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.5,
+            "right": 45.1,
+            "top": 51.7,
+            "bottom": 14.1
+          },
+          "content_stats": {
+            "text_char_count": 4222,
+            "text_blocks_count": 29,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Cluster-"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 5,
+            "col2_boxes_count": 13,
+            "col1_vertical_span": 212.0,
+            "col2_vertical_span": 661.7,
+            "vertical_difference": 449.7
+          }
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v2_nature_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 193.7,
+            "bottom": 14.1
+          },
+          "content_stats": {
+            "text_char_count": 3527,
+            "text_blocks_count": 17,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 40,
+                "rect": [
+                  46.8,
+                  122.7,
+                  212.7,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 42,
+                "rect": [
+                  223.1,
+                  46.8,
+                  388.9,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 44,
+                "rect": [
+                  399.3,
+                  46.8,
+                  565.2,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
+            "headings_detected": [
+              "3.2. Spectral Decomposition and PCA Dimensionality",
+              "3.3. Four-Con\ufb01guration Clustering Benchmark (k = 7)",
+              "3.4. Dimensionality Reduction vs. 2D Visual Display"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 9,
+            "col2_boxes_count": 7,
+            "col1_vertical_span": 527.4,
+            "col2_vertical_span": 528.2,
+            "vertical_difference": 0.8
+          }
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v2_nature_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 51.1,
+            "bottom": 14.1
+          },
+          "content_stats": {
+            "text_char_count": 4793,
+            "text_blocks_count": 23,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3.6. Submission Assignment File Veri\ufb01cation",
+              "4. Discussion and Engineering Synthesis",
+              "5. Conclusion"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 9,
+            "col2_boxes_count": 12,
+            "col1_vertical_span": 726.7,
+            "col2_vertical_span": 726.7,
+            "vertical_difference": 0.0
+          }
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v2_nature_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.8,
+            "right": 303.5,
+            "top": 48.0,
+            "bottom": 14.1
+          },
+          "content_stats": {
+            "text_char_count": 746,
+            "text_blocks_count": 9,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": {
+            "col1_boxes_count": 9,
+            "col2_boxes_count": 1,
+            "col1_vertical_span": 729.9,
+            "col2_vertical_span": 10.0,
+            "vertical_difference": 719.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "report_v3_iclr",
+      "name": "Variant 3: ICLR / NeurIPS Top-Tier Conference",
+      "path": "/Users/addie/repos/ML_Project/docs/latex_reports/variant3_iclr/report.pdf",
+      "type": "report",
+      "style_theme": "ICLR / NeurIPS Dual-Format",
+      "compliance": {
+        "total_pages": 5,
+        "ref_start_page": 5,
+        "pages_before_references": 4,
+        "max_allowed_pages": 6,
+        "page_count_compliant": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v3_iclr_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 55.6,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 5164,
+            "text_blocks_count": 25,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "2. Project 1: Spam Email Detection",
+              "2.2. Experimental Design and Leakage Prevention",
+              "( 1 + \ud835\udc41"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v3_iclr_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.4,
+            "right": 45.1,
+            "top": 51.2,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4374,
+            "text_blocks_count": 28,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 28,
+                "rect": [
+                  69.4,
+                  376.3,
+                  275.5,
+                  552.9
+                ],
+                "width": 206.1,
+                "height": 176.6,
+                "centered": false
+              },
+              {
+                "xref": 32,
+                "rect": [
+                  313.9,
+                  379.4,
+                  434.5,
+                  426.7
+                ],
+                "width": 120.6,
+                "height": 47.4,
+                "centered": false
+              },
+              {
+                "xref": 34,
+                "rect": [
+                  444.6,
+                  353.0,
+                  565.2,
+                  426.7
+                ],
+                "width": 120.6,
+                "height": 73.7,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v3_iclr_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.4,
+            "right": 45.1,
+            "top": 51.8,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4610,
+            "text_blocks_count": 31,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Cluster-",
+              "3.2. Spectral Decomposition and PCA Dimensionality"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v3_iclr_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.5,
+            "right": 45.1,
+            "top": 193.8,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4035,
+            "text_blocks_count": 17,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 51,
+                "rect": [
+                  46.8,
+                  122.7,
+                  212.7,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 53,
+                "rect": [
+                  223.1,
+                  46.8,
+                  388.9,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 55,
+                "rect": [
+                  399.3,
+                  46.8,
+                  565.2,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v3_iclr_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 50.7,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4249,
+            "text_blocks_count": 27,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "4. Discussion and Engineering Synthesis",
+              "5. Conclusion"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    },
+    {
+      "id": "report_v4_monograph",
+      "name": "Variant 4: MIT Press Executive Monograph",
+      "path": "/Users/addie/repos/ML_Project/docs/latex_reports/variant4_monograph/report.pdf",
+      "type": "report",
+      "style_theme": "MIT Press Technical Monograph / Palatino Serif",
+      "compliance": {
+        "total_pages": 5,
+        "ref_start_page": 5,
+        "pages_before_references": 4,
+        "max_allowed_pages": 6,
+        "page_count_compliant": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v4_monograph_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 60.9,
+            "right": 59.5,
+            "top": 70.5,
+            "bottom": 22.0
+          },
+          "content_stats": {
+            "text_char_count": 4314,
+            "text_blocks_count": 19,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "1. Introduction and Problem Formulations",
+              "2. Project 1: Spam Email Detection",
+              "2.2. Experimental Design and Leakage Prevention"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v4_monograph_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 61.2,
+            "right": 59.5,
+            "top": 54.5,
+            "bottom": 22.0
+          },
+          "content_stats": {
+            "text_char_count": 3569,
+            "text_blocks_count": 19,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 26,
+                "rect": [
+                  61.2,
+                  359.3,
+                  247.3,
+                  518.8
+                ],
+                "width": 186.1,
+                "height": 159.5,
+                "centered": false
+              },
+              {
+                "xref": 28,
+                "rect": [
+                  266.8,
+                  432.6,
+                  403.1,
+                  486.2
+                ],
+                "width": 136.3,
+                "height": 53.5,
+                "centered": true
+              },
+              {
+                "xref": 30,
+                "rect": [
+                  414.5,
+                  402.9,
+                  550.8,
+                  486.2
+                ],
+                "width": 136.3,
+                "height": 83.3,
+                "centered": false
+              }
+            ],
+            "headings_detected": [
+              "F1",
+              "FPR"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v4_monograph_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 61.2,
+            "right": 61.2,
+            "top": 79.9,
+            "bottom": 22.0
+          },
+          "content_stats": {
+            "text_char_count": 3212,
+            "text_blocks_count": 33,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "F1",
+              "FPR"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v4_monograph_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 60.8,
+            "right": 59.5,
+            "top": 56.0,
+            "bottom": 22.0
+          },
+          "content_stats": {
+            "text_char_count": 3709,
+            "text_blocks_count": 24,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Clustering",
+              "3.2. Spectral Decomposition and PCA Dimensionality Choice",
+              "4. Discussion and Engineering Synthesis"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v4_monograph_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 60.9,
+            "right": 59.5,
+            "top": 193.2,
+            "bottom": 22.0
+          },
+          "content_stats": {
+            "text_char_count": 2233,
+            "text_blocks_count": 20,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 53,
+                "rect": [
+                  61.2,
+                  125.7,
+                  217.9,
+                  187.0
+                ],
+                "width": 156.7,
+                "height": 61.3,
+                "centered": false
+              },
+              {
+                "xref": 55,
+                "rect": [
+                  227.7,
+                  54.0,
+                  384.3,
+                  187.0
+                ],
+                "width": 156.7,
+                "height": 133.0,
+                "centered": true
+              },
+              {
+                "xref": 57,
+                "rect": [
+                  394.1,
+                  54.0,
+                  550.8,
+                  187.0
+                ],
+                "width": 156.7,
+                "height": 133.0,
+                "centered": false
+              }
+            ],
+            "headings_detected": [
+              "5. Conclusion"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    },
+    {
+      "id": "report_v5_deepmind",
+      "name": "Variant 5: DeepMind / OpenAI Technical Whitepaper",
+      "path": "/Users/addie/repos/ML_Project/docs/latex_reports/variant5_deepmind/report.pdf",
+      "type": "report",
+      "style_theme": "DeepMind / OpenAI Technical Whitepaper",
+      "compliance": {
+        "total_pages": 5,
+        "ref_start_page": 5,
+        "pages_before_references": 4,
+        "max_allowed_pages": 6,
+        "page_count_compliant": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v5_deepmind_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 55.6,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 5187,
+            "text_blocks_count": 25,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "2. Project 1: Spam Email Detection",
+              "2.2. Experimental Design and Leakage Prevention",
+              "( 1 + \ud835\udc41"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v5_deepmind_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.4,
+            "right": 45.1,
+            "top": 51.2,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4374,
+            "text_blocks_count": 28,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 26,
+                "rect": [
+                  69.4,
+                  376.3,
+                  275.5,
+                  552.9
+                ],
+                "width": 206.1,
+                "height": 176.6,
+                "centered": false
+              },
+              {
+                "xref": 30,
+                "rect": [
+                  313.9,
+                  379.4,
+                  434.5,
+                  426.7
+                ],
+                "width": 120.6,
+                "height": 47.4,
+                "centered": false
+              },
+              {
+                "xref": 32,
+                "rect": [
+                  444.6,
+                  353.0,
+                  565.2,
+                  426.7
+                ],
+                "width": 120.6,
+                "height": 73.7,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v5_deepmind_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.4,
+            "right": 45.1,
+            "top": 51.8,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4690,
+            "text_blocks_count": 30,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Clustering"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v5_deepmind_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.5,
+            "right": 45.1,
+            "top": 193.8,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4008,
+            "text_blocks_count": 16,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 49,
+                "rect": [
+                  46.8,
+                  122.7,
+                  212.7,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 51,
+                "rect": [
+                  223.1,
+                  46.8,
+                  388.9,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 53,
+                "rect": [
+                  399.3,
+                  46.8,
+                  565.2,
+                  187.6
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
+            "headings_detected": [
+              "3.3. Four-Configuration Clustering Benchmark (\ud835\udc58= 7)"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v5_deepmind_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
+            ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 46.3,
+            "right": 45.1,
+            "top": 50.7,
+            "bottom": 14.7
+          },
+          "content_stats": {
+            "text_char_count": 4192,
+            "text_blocks_count": 27,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "4. Discussion and Engineering Synthesis",
+              "5. Conclusion"
+            ]
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    }
+  ],
+  "presentations": [
+    {
+      "id": "pres_v1_beamer_madrid",
+      "name": "Presentation Variant 1: Academic LaTeX Beamer (Madrid / Whale)",
+      "path": "/Users/addie/repos/ML_Project/docs/presentation_variants/variant1_beamer_madrid/presentation.pdf",
+      "type": "presentation",
+      "style_theme": "LaTeX Beamer Madrid (Academic Blue/Cyan)",
+      "compliance": {
+        "total_slides": 10,
+        "expected_slides": 10,
+        "slide_count_compliant": true,
+        "aspect_ratio": 1.778,
+        "is_widescreen_169": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              147,
+              159,
+              177
+            ],
+            "is_dark_mode": false,
+            "brightness": 157.5
+          },
+          "margins": {
+            "left": 47.0,
+            "right": 2.2,
+            "top": 66.0,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 310,
+            "text_blocks_count": 46,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n1 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 8.5,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 749,
+            "text_blocks_count": 48,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n2 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 8.5,
+            "right": -4.6,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 824,
+            "text_blocks_count": 49,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  257.8,
+                  103.0,
+                  458.2,
+                  113.0
+                ],
+                "snippet": "Split\nHam (0)\nSpam",
+                "excess": 19.6
+              },
+              {
+                "box": [
+                  257.8,
+                  120.1,
+                  452.8,
+                  165.9
+                ],
+                "snippet": "Train 1\n1,927\nTrain 2\n1,440\nClean Corpus\n3,290 (78.5%)\n903 (",
+                "excess": 14.3
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n3 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 8.5,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 1087,
+            "text_blocks_count": 45,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n4 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 8.5,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 439,
+            "text_blocks_count": 43,
+            "images_count": 2,
+            "images": [
+              {
+                "xref": 186,
+                "rect": [
+                  12.4,
+                  32.4,
+                  220.6,
+                  210.8
+                ],
+                "width": 208.1,
+                "height": 178.4,
+                "centered": false
+              },
+              {
+                "xref": 188,
+                "rect": [
+                  233.0,
+                  58.0,
+                  441.1,
+                  185.2
+                ],
+                "width": 208.1,
+                "height": 127.2,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  10.0,
+                  215.0,
+                  443.6,
+                  242.1
+                ],
+                "snippet": "Asymmetric Cost Optimization: Legitimate message loss (FP) i",
+                "excess": 5.0
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n5 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 6.6,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 917,
+            "text_blocks_count": 50,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  230.1,
+                  85.6,
+                  446.9,
+                  97.8
+                ],
+                "snippet": "False Negative Mechanisms (Spam \u2192Ham)",
+                "excess": 8.4
+              },
+              {
+                "box": [
+                  250.0,
+                  158.2,
+                  446.7,
+                  173.4
+                ],
+                "snippet": "Conversational Lure (#468, P = 0.19): \"Hi this is\nAmy...\". C",
+                "excess": 8.1
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n6 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 7,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p7.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 6.6,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 662,
+            "text_blocks_count": 47,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 270,
+                "rect": [
+                  230.1,
+                  86.8,
+                  446.9,
+                  171.6
+                ],
+                "width": 216.8,
+                "height": 84.8,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n7 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 8,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p8.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 8.5,
+            "right": -3.7,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 477,
+            "text_blocks_count": 44,
+            "images_count": 2,
+            "images": [
+              {
+                "xref": 300,
+                "rect": [
+                  6.6,
+                  106.2,
+                  223.5,
+                  290.2
+                ],
+                "width": 216.8,
+                "height": 184.0,
+                "centered": false
+              },
+              {
+                "xref": 302,
+                "rect": [
+                  230.1,
+                  106.2,
+                  446.9,
+                  290.2
+                ],
+                "width": 216.8,
+                "height": 184.0,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  15.9,
+                  39.2,
+                  457.2,
+                  48.3
+                ],
+                "snippet": "Con\ufb01guration\nFeature Space\nSilhouette (\u2191)\nCalinski\u2013Harabasz ",
+                "excess": 18.7
+              },
+              {
+                "box": [
+                  15.9,
+                  55.5,
+                  456.1,
+                  97.3
+                ],
+                "snippet": "Con\ufb01g 1: K-Means\nStandardized (16D)\n0.3094\n7,848.44\n1\nCon\ufb01g ",
+                "excess": 17.6
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n8 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 9,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p9.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 8.5,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 1061,
+            "text_blocks_count": 45,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n9 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 10,
+          "dimensions_pt": [
+            453.5,
+            255.1
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v1_beamer_madrid_p10.png",
+          "color_stats": {
+            "bg_rgb": [
+              29,
+              53,
+              91
+            ],
+            "is_dark_mode": true,
+            "brightness": 50.2
+          },
+          "margins": {
+            "left": 6.6,
+            "right": 2.2,
+            "top": 8.9,
+            "bottom": 1.1
+          },
+          "content_stats": {
+            "text_char_count": 785,
+            "text_blocks_count": 52,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [
+              {
+                "box": [
+                  443.1,
+                  236.0,
+                  444.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  443.1,
+                  243.0,
+                  444.3,
+                  247.0
+                ],
+                "snippet": ".",
+                "excess": 5.8
+              },
+              {
+                "box": [
+                  450.1,
+                  236.0,
+                  451.3,
+                  240.0
+                ],
+                "snippet": ".",
+                "excess": 12.8
+              },
+              {
+                "box": [
+                  51.5,
+                  249.0,
+                  449.1,
+                  254.0
+                ],
+                "snippet": "A. Dalwai (CS Dept)\nML Course Projects\nNov 2026\n10 / 10",
+                "excess": 10.6
+              }
+            ],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    },
+    {
+      "id": "pres_v2_dark_mode_tech",
+      "name": "Presentation Variant 2: Dark Mode Tech Keynote",
+      "path": "/Users/addie/repos/ML_Project/docs/presentation_variants/variant2_dark_mode_tech/presentation.pdf",
+      "type": "presentation",
+      "style_theme": "Obsidian / Neon Cyan Keynote",
+      "compliance": {
+        "total_slides": 10,
+        "expected_slides": 10,
+        "slide_count_compliant": true,
+        "aspect_ratio": 1.778,
+        "is_widescreen_169": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 211,
+            "text_blocks_count": 4,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 462,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 460,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 511,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 409,
+            "text_blocks_count": 5,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 4,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 543,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 7,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p7.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 472,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 6,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 8,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p8.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 498,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 8,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 9,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p9.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 655,
+            "text_blocks_count": 9,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 10,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v2_dark_mode_tech_p10.png",
+          "color_stats": {
+            "bg_rgb": [
+              10,
+              15,
+              24
+            ],
+            "is_dark_mode": true,
+            "brightness": 14.5
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 524,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    },
+    {
+      "id": "pres_v3_swiss_clean",
+      "name": "Presentation Variant 3: Swiss International Clean",
+      "path": "/Users/addie/repos/ML_Project/docs/presentation_variants/variant3_swiss_clean/presentation.pdf",
+      "type": "presentation",
+      "style_theme": "Minimalist Swiss International (White / Vermilion)",
+      "compliance": {
+        "total_slides": 10,
+        "expected_slides": 10,
+        "slide_count_compliant": true,
+        "aspect_ratio": 1.778,
+        "is_widescreen_169": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 217,
+            "text_blocks_count": 4,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 465,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 463,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 514,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 412,
+            "text_blocks_count": 5,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 4,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 546,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 7,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p7.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 475,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 6,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 8,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p8.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 501,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 8,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 9,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p9.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 658,
+            "text_blocks_count": 9,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 10,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v3_swiss_clean_p10.png",
+          "color_stats": {
+            "bg_rgb": [
+              248,
+              249,
+              251
+            ],
+            "is_dark_mode": false,
+            "brightness": 248.9
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 527,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    },
+    {
+      "id": "pres_v4_editorial_executive",
+      "name": "Presentation Variant 4: Harvard Business Editorial",
+      "path": "/Users/addie/repos/ML_Project/docs/presentation_variants/variant4_editorial_executive/presentation.pdf",
+      "type": "presentation",
+      "style_theme": "Editorial Executive Cream / Crimson",
+      "compliance": {
+        "total_slides": 10,
+        "expected_slides": 10,
+        "slide_count_compliant": true,
+        "aspect_ratio": 1.778,
+        "is_widescreen_169": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 219,
+            "text_blocks_count": 4,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 466,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 464,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 515,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 413,
+            "text_blocks_count": 5,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 4,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 547,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 7,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p7.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 476,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 6,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 8,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p8.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 502,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 8,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 9,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p9.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 659,
+            "text_blocks_count": 9,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 10,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v4_editorial_executive_p10.png",
+          "color_stats": {
+            "bg_rgb": [
+              253,
+              251,
+              246
+            ],
+            "is_dark_mode": false,
+            "brightness": 251.0
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 528,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    },
+    {
+      "id": "pres_v5_indigo_enterprise",
+      "name": "Presentation Variant 5: Modern SaaS Indigo Enterprise",
+      "path": "/Users/addie/repos/ML_Project/docs/presentation_variants/variant5_indigo_enterprise/presentation.pdf",
+      "type": "presentation",
+      "style_theme": "Modern SaaS Indigo / Slate",
+      "compliance": {
+        "total_slides": 10,
+        "expected_slides": 10,
+        "slide_count_compliant": true,
+        "aspect_ratio": 1.778,
+        "is_widescreen_169": true,
+        "status": "PASS"
+      },
+      "page_audits": [
+        {
+          "page_num": 1,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p1.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 225,
+            "text_blocks_count": 4,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 2,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p2.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 469,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 3,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p3.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 467,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 4,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p4.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 518,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 5,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p5.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 416,
+            "text_blocks_count": 5,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 4,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 550,
+            "text_blocks_count": 5,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 7,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p7.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 479,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 6,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 8,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p8.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 505,
+            "text_blocks_count": 6,
+            "images_count": 1,
+            "images": [
+              {
+                "xref": 8,
+                "rect": [
+                  535.0,
+                  84.0,
+                  866.2,
+                  321.6
+                ],
+                "width": 331.2,
+                "height": 237.6,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 9,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p9.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 662,
+            "text_blocks_count": 9,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 10,
+          "dimensions_pt": [
+            960.0,
+            540.0
+          ],
+          "aspect_ratio": 1.778,
+          "rendered_png": "pres_v5_indigo_enterprise_p10.png",
+          "color_stats": {
+            "bg_rgb": [
+              240,
+              244,
+              249
+            ],
+            "is_dark_mode": false,
+            "brightness": 243.4
+          },
+          "margins": {
+            "left": 45.0,
+            "right": 45.0,
+            "top": 39.5,
+            "bottom": 16.9
+          },
+          "content_stats": {
+            "text_char_count": 531,
+            "text_blocks_count": 6,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        }
+      ]
+    }
+  ]
+}
