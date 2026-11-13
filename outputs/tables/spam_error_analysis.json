@@ -19,7 +19,7 @@
       "text_snippet": "Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more v...",
       "full_text": "Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more visit fullonsms.com",
       "root_cause": "Message contains referral tokens like 'free sms', 'contact list', and web link 'www.fullonsms.com'. The unigram/bigram TF-IDF vectorizer assigns high positive spam weights to 'free sms' and 'visit', failing to recognize that this is an opt-in referral invitation between acquaintances.",
-      "actionable_remedy": "Incorporate domain reputation scoring and distinguish peer-to-peer referral templates from unsolicited mass blasts."
+      "actionable_remedy": "Domain token downweighting and URL path parsing to differentiate legitimate peer service invitations from promotional link campaigns."
     },
     {
       "sample_id": 373,
@@ -33,7 +33,7 @@
       "text_snippet": "I to am looking forward to all the sex cuddling.. Only two more sleeps",
       "full_text": "I to am looking forward to all the sex cuddling.. Only two more sleeps",
       "root_cause": "Contains explicit romantic language ('sex cuddling', 'more sleeps'). In bag-of-words models, 'sex' heavily co-occurs with adult spam. The model lacks syntactic comprehension to discern an affectionate private exchange from commercial adult spam.",
-      "actionable_remedy": "Utilize conversational context or sentiment/syntactic dependency parsing to differentiate personal affectionate tones from commercial solicitations."
+      "actionable_remedy": "Windowed co-occurrence features combining intimate tokens with first-person pronouns ('I', 'we', 'our') to suppress commercial spam classification."
     },
     {
       "sample_id": 4106,
@@ -47,7 +47,7 @@
       "text_snippet": "Subject: fw : danger of phenylpropanolamine\r\n- - - - - original message - - - - -\r\nfrom : jennifer glover [ mailto : jm . glover @ meritener...",
       "full_text": "Subject: fw : danger of phenylpropanolamine\r\n- - - - - original message - - - - -\r\nfrom : jennifer glover [ mailto : jm . glover @ meritenergy . com ]\r\nsent : friday , january 12 , 2001 10 : 33 am\r\nto : donellec @ earthlink . net ; rglover @ halff . com ;\r\nandrea . danielson @ risd . org ; don 91 lin @ xit . net\r\nsubject : fwd : danger of phenylpropanolamine\r\nthis is why rusty and i couldn ' t find any alkaseltzer in any stores ! ! !\r\njennifer glover\r\nmerit energy company\r\nsenior property accountant\r\n( 972 ) 383 - 6519\r\n?\r\nfrom : tammy cooper\r\nto : a . harrington @ meritenergy . com , a . smith @ meritenergy . com ,\r\namyc . smith @ meritenergy . com , claudia . breedlove @ meritenergy . com ,\r\ndarcie . boughton @ meritenergy . com , jm . glover @ meritenergy . com ,\r\nlanna . bacchus @ meritenergy . com , mark . love @ meritenergy . com ,\r\nsara . burnett @ meritenergy . com , tom . buechel @ meritenergy . com\r\nsubject : danger of phenylpropanolamine\r\ndate : fri , 12 jan 2001 10 : 27 : 20 - 0600\r\nmime - version : 1 . 0\r\nx - mailer : internet mail service ( 5 . 5 . 2653 . 19 )\r\ncontent - type : multipart / alternative ;\r\nplease forward this to the people you love .\r\ncvs has removed all products containing this chemical from their shelves .\r\nthis was seen on the news both last night and this morning . thought it\r\nmight be helpful for all of you to have the list . stop taking anything\r\ncontaining this ingredient . it has been linked to increased hemorrhagic\r\nstroke\r\n( bleeding in brain ) among women ages 18 - 49 in the three days after starting\r\nuse of medication . problems were not found in men , but the fda recommended\r\nthat everyone ( even children ) seek alternative medicine . the following\r\nmedications contain :\r\nalka - seltzer plus children ' s cold medicine effervescent\r\nalka - seltzer plus cold medicine ( cherry or orange )\r\nalka - seltzer plus cold medicine original\r\nalka - seltzer plus cold & cough medicine effervescent\r\nalka - seltzer plus cold & flu medicine effervescent\r\nalka - seltzer plus cold & sinus effervescent\r\nalka seltzer plus night - time cold medicine effervescent\r\nbc allergy sinus cold powder\r\nbc sinus cold powder\r\ncomtrex deep chest cold & congestion relief\r\ncomtrex flu therapy & fever relief day & night\r\ncontac 12 - hour cold capsules\r\ncontac 12 hour caplets\r\ncoricidin d cold , flu & sinus\r\ndimetapp cold & allergy chewable tablets\r\ndimetapp cold & cough liqui - gels\r\ndimetapp dm cold & cough elixir\r\ndimetapp elixir\r\ndimetapp 4 hour liqui gels\r\ndimetapp 4 hour tablets\r\ndimetapp 12 hour extentabs tablets\r\nnaldecon dx pediatric drops\r\npermathene mega - 16\r\nrobitussin cf\r\ntavist - d 12 hour relief of sinus & nasal congestion\r\ntriaminic dm cough relief\r\ntriaminic expectorant chest & head congestion\r\ntriaminic syrup cold & allergy\r\ntriaminic triaminicol cold & cough\r\nacutrim diet gum appetite suppressant plus diary supplements\r\nacutrim maximum strength appetite control\r\ndexatrim caffeine free\r\ndexatrim extended duration\r\ndexatrim gelcaps\r\ndexatrim vitamin c / caffeine free\r\nplease discard any of these medications as soon as possible !",
       "root_cause": "Mentions 'tablets' alongside colloquial body references. In text spam filters, pharmaceutical terms (tablets, pills, prescriptions) carry heavy spam priors due to widespread illicit pharmacy spam campaigns.",
-      "actionable_remedy": "Sublinear TF discounting on isolated pharmaceutical terms and n-gram validation against sender-recipient relational history."
+      "actionable_remedy": "Sublinear TF saturation and forwarded-chain zoning ('original message', 'fwd:') to downweight quoted medical alert forwards."
     },
     {
       "sample_id": 25,
@@ -61,7 +61,7 @@
       "text_snippet": "Just normal only here :)",
       "full_text": "Just normal only here :)",
       "root_cause": "Short message ('Just normal only here :)') with sparse vocabulary. Emoticons and short informal phrasing can produce skewed decision boundaries when rare token combinations match noisy training fold coefficients.",
-      "actionable_remedy": "Implement a message length prior or minimum information threshold before applying aggressive spam classifications."
+      "actionable_remedy": "Length-calibrated prior damping for ultra-short texts (<5 words) requiring multi-token corroboration before overriding the ham prior."
     },
     {
       "sample_id": 534,
@@ -75,7 +75,7 @@
       "text_snippet": "No message..no responce..what happend?",
       "full_text": "No message..no responce..what happend?",
       "root_cause": "Ellipses and typo 'responce' combined with lack of substantive content. The classifier's bias term and punctuation tokenization penalize non-standard syntax as spam-like urgency.",
-      "actionable_remedy": "Normalize repeated punctuation (e.g. '..' -> '.') during tokenization and employ length-calibrated thresholding."
+      "actionable_remedy": "Normalize repeated punctuation sequences ('..' -> '.') and incorporate character n-gram hashing for informal orthography."
     },
     {
       "sample_id": 193,
@@ -117,7 +117,7 @@
       "text_snippet": "Dorothy@kiefer.com (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBERS *****UP OVER 300% *********** Nasdaq Symbol CDGT That ...",
       "full_text": "Dorothy@kiefer.com (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBERS *****UP OVER 300% *********** Nasdaq Symbol CDGT That is a $5.00 per..",
       "root_cause": "Spam simulates legitimate financial newsletter / analyst report ('Dorothy@kiefer.com (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBERS... Nasdaq Symbol CDGT'). The corporate and equity research vocabulary closely matches benign business communications (e.g., Enron emails).",
-      "actionable_remedy": "Engineered financial spam features: percentage yield claims ('UP OVER 300%'), OTC stock ticker symbol lookups, and sender address header validation (SPF/DKIM)."
+      "actionable_remedy": "Regex feature extraction for OTC stock ticker patterns ('Symbol [A-Z]{3,5}') and promotional yield claims ('UP OVER [0-9]+%')."
     },
     {
       "sample_id": 468,
@@ -131,7 +131,7 @@
       "text_snippet": "Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access to all the adult parties...",
       "full_text": "Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access to all the adult parties...",
       "root_cause": "Begins with benign conversational greeting ('Hi this is Amy, we will be sending you a free phone number in a couple of days...'). The casual, polite introductory tone masks the subsequent adult party solicitation, keeping the overall bag-of-words score below the decision boundary.",
-      "actionable_remedy": "Sequential transition modeling (e.g. RNN / Transformer or sentence-level maximum pooling) that detects abrupt transitions from casual greeting to call-to-action."
+      "actionable_remedy": "Positional bigram transition features capturing shifts from conversational openings to urgent call-to-actions, plus character n-grams."
     },
     {
       "sample_id": 332,
@@ -145,7 +145,7 @@
       "text_snippet": "0A$NETWORKS allow companies to bill for SMS, so they are responsible for their \\suppliers\\\" just as a shop has to give a guarantee on what t...",
       "full_text": "0A$NETWORKS allow companies to bill for SMS, so they are responsible for their \\suppliers\\\" just as a shop has to give a guarantee on what they sell. B. G.\"",
       "root_cause": "Written in the tone of a commercial policy statement or legal dispute regarding SMS billing liability ('allow companies to bill for SMS, so they are responsible for their suppliers...'). Lacks standard promotional imperatives ('buy', 'win', 'urgent').",
-      "actionable_remedy": "Combine structural email metadata (originating gateway, relay hops) with NLP models to flag bulk disclaimers regardless of neutral phrasing."
+      "actionable_remedy": "Disclaimer token density ratios and uppercase character counts to differentiate legal policy notices from bulk promotional broadcasts."
     }
   ],
   "all_fp_sample_ids": [

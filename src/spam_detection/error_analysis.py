@@ -60,7 +60,7 @@ def generate_error_analysis(
                 "failing to recognize that this is an opt-in referral invitation between acquaintances."
             ),
             "remedy": (
-                "Incorporate domain reputation scoring and distinguish peer-to-peer referral templates from unsolicited mass blasts."
+                "Domain token downweighting and URL path parsing to differentiate legitimate peer service invitations from promotional link campaigns."
             )
         },
         {
@@ -72,7 +72,7 @@ def generate_error_analysis(
                 "an affectionate private exchange from commercial adult spam."
             ),
             "remedy": (
-                "Utilize conversational context or sentiment/syntactic dependency parsing to differentiate personal affectionate tones from commercial solicitations."
+                "Windowed co-occurrence features combining intimate tokens with first-person pronouns ('I', 'we', 'our') to suppress commercial spam classification."
             )
         },
         {
@@ -83,7 +83,7 @@ def generate_error_analysis(
                 "(tablets, pills, prescriptions) carry heavy spam priors due to widespread illicit pharmacy spam campaigns."
             ),
             "remedy": (
-                "Sublinear TF discounting on isolated pharmaceutical terms and n-gram validation against sender-recipient relational history."
+                "Sublinear TF saturation and forwarded-chain zoning ('original message', 'fwd:') to downweight quoted medical alert forwards."
             )
         },
         {
@@ -94,7 +94,7 @@ def generate_error_analysis(
                 "can produce skewed decision boundaries when rare token combinations match noisy training fold coefficients."
             ),
             "remedy": (
-                "Implement a message length prior or minimum information threshold before applying aggressive spam classifications."
+                "Length-calibrated prior damping for ultra-short texts (<5 words) requiring multi-token corroboration before overriding the ham prior."
             )
         },
         {
@@ -105,7 +105,7 @@ def generate_error_analysis(
                 "and punctuation tokenization penalize non-standard syntax as spam-like urgency."
             ),
             "remedy": (
-                "Normalize repeated punctuation (e.g. '..' -> '.') during tokenization and employ length-calibrated thresholding."
+                "Normalize repeated punctuation sequences ('..' -> '.') and incorporate character n-gram hashing for informal orthography."
             )
         }
     ]
@@ -170,7 +170,7 @@ def generate_error_analysis(
                 "The corporate and equity research vocabulary closely matches benign business communications (e.g., Enron emails)."
             ),
             "remedy": (
-                "Engineered financial spam features: percentage yield claims ('UP OVER 300%'), OTC stock ticker symbol lookups, and sender address header validation (SPF/DKIM)."
+                "Regex feature extraction for OTC stock ticker patterns ('Symbol [A-Z]{3,5}') and promotional yield claims ('UP OVER [0-9]+%')."
             )
         },
         {
@@ -181,7 +181,7 @@ def generate_error_analysis(
                 "The casual, polite introductory tone masks the subsequent adult party solicitation, keeping the overall bag-of-words score below the decision boundary."
             ),
             "remedy": (
-                "Sequential transition modeling (e.g. RNN / Transformer or sentence-level maximum pooling) that detects abrupt transitions from casual greeting to call-to-action."
+                "Positional bigram transition features capturing shifts from conversational openings to urgent call-to-actions, plus character n-grams."
             )
         },
         {
@@ -192,7 +192,7 @@ def generate_error_analysis(
                 "Lacks standard promotional imperatives ('buy', 'win', 'urgent')."
             ),
             "remedy": (
-                "Combine structural email metadata (originating gateway, relay hops) with NLP models to flag bulk disclaimers regardless of neutral phrasing."
+                "Disclaimer token density ratios and uppercase character counts to differentiate legal policy notices from bulk promotional broadcasts."
             )
         }
     ]

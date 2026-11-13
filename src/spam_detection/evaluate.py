@@ -245,24 +245,27 @@ def plot_threshold_tradeoff(
 ):
     """
     Plots the operational tradeoff between Spam Precision, Recall, F1, and Ham FPR
-    across decision thresholds.
+    across decision thresholds. Optimized for print and column-width readability.
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
-    plt.figure(figsize=(9, 5.5))
-    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Spam_Precision"], marker="o", label="Spam Precision", color="#2ca02c", linewidth=2)
-    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Spam_Recall"], marker="s", label="Spam Recall", color="#ff7f0e", linewidth=2)
-    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Spam_F1"], marker="^", label="Spam F1-Score", color="#1f77b4", linewidth=2.5)
-    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Ham_FPR"], marker="x", label="Ham FPR (Cost)", color="#d62728", linewidth=2, linestyle="--")
+    plt.figure(figsize=(6.5, 4.4))
+    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Spam_Precision"], marker="o", label="Spam Precision", color="#2ca02c", linewidth=2.8, markersize=6)
+    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Spam_Recall"], marker="s", label="Spam Recall", color="#ff7f0e", linewidth=2.8, markersize=6)
+    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Spam_F1"], marker="^", label="Spam F1-Score", color="#1f77b4", linewidth=3.2, markersize=7)
+    plt.plot(tradeoff_df["Threshold"], tradeoff_df["Ham_FPR"], marker="x", label="Ham FPR (Cost)", color="#d62728", linewidth=2.8, linestyle="--", markersize=7)
 
-    plt.axvline(x=0.5, color="gray", linestyle=":", alpha=0.7, label="Default Threshold (0.50)")
+    plt.axvline(x=0.5, color="#4b5563", linestyle=":", linewidth=2.0, alpha=0.85, label=r"Default ($\tau=0.50$)")
+    plt.axvline(x=0.7, color="#7c3aed", linestyle="-.", linewidth=2.0, alpha=0.85, label=r"Constrained ($\tau=0.70$)")
     
-    plt.title(f"Decision Threshold Tradeoff Analysis\n{model_name}", fontsize=13, fontweight="bold", pad=12)
-    plt.xlabel("Probability Decision Threshold (Spam Class)", fontsize=11, fontweight="bold")
+    plt.title(f"Operational Decision Threshold Tradeoffs\n{model_name}", fontsize=13, fontweight="bold", pad=10)
+    plt.xlabel("Probability Decision Threshold ($\tau$)", fontsize=11, fontweight="bold")
     plt.ylabel("Metric Score", fontsize=11, fontweight="bold")
-    plt.ylim(-0.02, 1.02)
+    plt.ylim(-0.02, 1.03)
+    plt.xticks(np.arange(0.1, 1.0, 0.1), fontsize=10)
+    plt.yticks(np.arange(0.0, 1.1, 0.2), fontsize=10)
     plt.grid(True, linestyle="--", alpha=0.5)
-    plt.legend(loc="center left", bbox_to_anchor=(0.02, 0.45), framealpha=0.9)
+    plt.legend(loc="center left", bbox_to_anchor=(0.02, 0.44), framealpha=0.92, fontsize=9.5)
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
     plt.close()
@@ -277,6 +280,7 @@ def plot_roc_pr_curves(
 ):
     """
     Generates side-by-side ROC curve and Precision-Recall curve.
+    Optimized for print and column-width readability.
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
@@ -286,30 +290,37 @@ def plot_roc_pr_curves(
     prec, rec, _ = precision_recall_curve(y_true, probs)
     avg_prec = average_precision_score(y_true, probs)
     
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5.5))
+    fig, axes = plt.subplots(1, 2, figsize=(9.2, 4.2))
     
     # ROC Curve
-    axes[0].plot(fpr, tpr, color="#1f77b4", lw=2.5, label=f"ROC (AUC = {roc_auc:.4f})")
-    axes[0].plot([0, 1], [0, 1], color="navy", lw=1.5, linestyle="--")
+    axes[0].plot(fpr, tpr, color="#1f77b4", lw=3.0, label=f"ROC (AUC = {roc_auc:.4f})")
+    axes[0].plot([0, 1], [0, 1], color="#6b7280", lw=1.8, linestyle="--", label="Random Chance")
     axes[0].set_xlim([-0.01, 1.0])
     axes[0].set_ylim([0.0, 1.05])
-    axes[0].set_xlabel("False Positive Rate (Ham Misclassified)", fontsize=11, fontweight="bold")
+    axes[0].set_xlabel("False Positive Rate (Ham Misclass.)", fontsize=11, fontweight="bold")
     axes[0].set_ylabel("True Positive Rate (Spam Recall)", fontsize=11, fontweight="bold")
-    axes[0].set_title(f"Receiver Operating Characteristic (ROC)\n{model_name}", fontsize=12, fontweight="bold")
+    axes[0].set_title(f"Receiver Operating Characteristic (ROC)", fontsize=12, fontweight="bold")
+    axes[0].tick_params(axis='both', which='major', labelsize=10)
     axes[0].grid(True, linestyle="--", alpha=0.5)
-    axes[0].legend(loc="lower right")
+    axes[0].legend(loc="lower right", fontsize=10, framealpha=0.92)
     
     # Precision-Recall Curve
-    axes[1].plot(rec, prec, color="#2ca02c", lw=2.5, label=f"PR (AP = {avg_prec:.4f})")
+    axes[1].plot(rec, prec, color="#2ca02c", lw=3.0, label=f"PR (AP = {avg_prec:.4f})")
     baseline_pr = np.mean(y_true)
-    axes[1].axhline(y=baseline_pr, color="gray", linestyle="--", label=f"Baseline Preval ({baseline_pr:.2%})")
+    axes[1].axhline(y=baseline_pr, color="#6b7280", linestyle="--", lw=1.8, label=f"Baseline ({baseline_pr:.1%})")
     axes[1].set_xlim([0.0, 1.0])
     axes[1].set_ylim([0.0, 1.05])
-    axes[1].set_xlabel("Recall (Spam Detection Rate)", fontsize=11, fontweight="bold")
-    axes[1].set_ylabel("Precision (Spam Purity)", fontsize=11, fontweight="bold")
-    axes[1].set_title(f"Precision-Recall Curve\n{model_name}", fontsize=12, fontweight="bold")
+    axes[1].set_xlabel("Spam Recall (Detection Rate)", fontsize=11, fontweight="bold")
+    axes[1].set_ylabel("Spam Precision (Purity)", fontsize=11, fontweight="bold")
+    axes[1].set_title(f"Precision-Recall Curve", fontsize=12, fontweight="bold")
+    axes[1].tick_params(axis='both', which='major', labelsize=10)
     axes[1].grid(True, linestyle="--", alpha=0.5)
-    axes[1].legend(loc="lower left")
+    axes[1].legend(loc="lower left", fontsize=10, framealpha=0.92)
+    
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+    logger.info(f"ROC and PR curves saved to {output_path}")
     
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)

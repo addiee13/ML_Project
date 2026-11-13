@@ -34,18 +34,19 @@
           },
           "margins": {
             "left": 46.3,
-            "right": 44.2,
+            "right": 45.1,
             "top": 55.6,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 5262,
-            "text_blocks_count": 23,
+            "text_char_count": 5302,
+            "text_blocks_count": 25,
             "images_count": 0,
             "images": [],
             "headings_detected": [
+              "1. Introduction and Problem Formulations",
               "2. Project 1: Spam Email Detection",
-              "2.2. Experimental Design and Leakage Prevention",
+              "2.2. Experimental Design, Leakage Prevention, and Models",
               "( 1 + \ud835\udc41"
             ]
           },
@@ -54,11 +55,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 6,
-            "col2_boxes_count": 13,
-            "col1_vertical_span": 607.4,
-            "col2_vertical_span": 605.8,
-            "vertical_difference": 1.6
+            "col1_boxes_count": 7,
+            "col2_boxes_count": 16,
+            "col1_vertical_span": 633.8,
+            "col2_vertical_span": 633.8,
+            "vertical_difference": 0.0
           }
         },
         {
@@ -80,64 +81,66 @@
           },
           "margins": {
             "left": 46.5,
-            "right": 31.4,
-            "top": 51.5,
+            "right": 45.1,
+            "top": 49.0,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4296,
-            "text_blocks_count": 29,
+            "text_char_count": 5028,
+            "text_blocks_count": 23,
             "images_count": 3,
             "images": [
               {
-                "xref": 26,
-                "rect": [
-                  69.4,
-                  440.3,
-                  275.5,
-                  616.9
-                ],
-                "width": 206.1,
-                "height": 176.6,
-                "centered": false
-              },
-              {
                 "xref": 29,
                 "rect": [
-                  313.9,
-                  394.5,
-                  434.5,
-                  441.9
+                  82.0,
+                  414.4,
+                  262.9,
+                  569.5
                 ],
-                "width": 120.6,
-                "height": 47.4,
+                "width": 180.9,
+                "height": 155.1,
                 "centered": false
               },
               {
-                "xref": 31,
+                "xref": 33,
                 "rect": [
-                  444.6,
-                  368.2,
-                  565.2,
-                  441.9
+                  313.9,
+                  194.0,
+                  434.5,
+                  284.5
                 ],
                 "width": 120.6,
-                "height": 73.7,
+                "height": 90.5,
+                "centered": false
+              },
+              {
+                "xref": 35,
+                "rect": [
+                  444.6,
+                  202.8,
+                  565.2,
+                  284.5
+                ],
+                "width": 120.6,
+                "height": 81.6,
                 "centered": false
               }
             ],
-            "headings_detected": []
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Clustering"
+            ]
           },
           "anomalies": {
             "overfull_boxes": [],
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 17,
-            "col2_boxes_count": 11,
-            "col1_vertical_span": 565.1,
-            "col2_vertical_span": 562.4,
-            "vertical_difference": 2.7
+            "col1_boxes_count": 11,
+            "col2_boxes_count": 13,
+            "col1_vertical_span": 726.4,
+            "col2_vertical_span": 728.3,
+            "vertical_difference": 1.9
           }
         },
         {
@@ -158,18 +161,55 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.4,
+            "left": 46.5,
             "right": 45.1,
-            "top": 51.8,
+            "top": 51.1,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4732,
-            "text_blocks_count": 31,
-            "images_count": 0,
-            "images": [],
+            "text_char_count": 4610,
+            "text_blocks_count": 18,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 41,
+                "rect": [
+                  46.8,
+                  260.0,
+                  212.7,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 43,
+                "rect": [
+                  223.1,
+                  184.1,
+                  388.9,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 45,
+                "rect": [
+                  399.3,
+                  184.1,
+                  565.2,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
             "headings_detected": [
-              "3. Project 2: Dry Bean Morphological Clustering"
+              "3.2. PCA Dimensionality Selection: Kaiser Rule vs. 95%"
             ]
           },
           "anomalies": {
@@ -177,11 +217,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 5,
-            "col2_boxes_count": 15,
-            "col1_vertical_span": 255.8,
-            "col2_vertical_span": 695.7,
-            "vertical_difference": 439.9
+            "col1_boxes_count": 9,
+            "col2_boxes_count": 5,
+            "col1_vertical_span": 388.2,
+            "col2_vertical_span": 389.9,
+            "vertical_difference": 1.6
           }
         },
         {
@@ -202,65 +242,30 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.3,
+            "left": 46.4,
             "right": 45.1,
-            "top": 193.8,
+            "top": 50.8,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4052,
-            "text_blocks_count": 16,
-            "images_count": 3,
-            "images": [
-              {
-                "xref": 49,
-                "rect": [
-                  46.8,
-                  122.7,
-                  212.7,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 64.9,
-                "centered": false
-              },
-              {
-                "xref": 51,
-                "rect": [
-                  223.1,
-                  46.8,
-                  388.9,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 140.8,
-                "centered": true
-              },
-              {
-                "xref": 53,
-                "rect": [
-                  399.3,
-                  46.8,
-                  565.2,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 140.8,
-                "centered": false
-              }
-            ],
-            "headings_detected": []
+            "text_char_count": 5743,
+            "text_blocks_count": 33,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": [
+              "3.6. Morphological Cluster Profiles and Archetype Charac-"
+            ]
           },
           "anomalies": {
             "overfull_boxes": [],
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 9,
-            "col2_boxes_count": 6,
-            "col1_vertical_span": 524.6,
-            "col2_vertical_span": 527.2,
-            "vertical_difference": 2.6
+            "col1_boxes_count": 10,
+            "col2_boxes_count": 12,
+            "col1_vertical_span": 400.3,
+            "col2_vertical_span": 703.2,
+            "vertical_difference": 302.9
           }
         },
         {
@@ -287,7 +292,7 @@
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4453,
+            "text_char_count": 4351,
             "text_blocks_count": 26,
             "images_count": 0,
             "images": [],
@@ -315,8 +320,8 @@
       "style_theme": "Nature Machine Intelligence / Springer Editorial",
       "compliance": {
         "total_pages": 6,
-        "ref_start_page": 6,
-        "pages_before_references": 5,
+        "ref_start_page": 5,
+        "pages_before_references": 4,
         "max_allowed_pages": 6,
         "page_count_compliant": true,
         "status": "PASS"
@@ -341,18 +346,18 @@
           },
           "margins": {
             "left": 46.3,
-            "right": 44.2,
+            "right": 45.0,
             "top": 56.5,
             "bottom": 14.1
           },
           "content_stats": {
-            "text_char_count": 4909,
-            "text_blocks_count": 24,
+            "text_char_count": 4787,
+            "text_blocks_count": 23,
             "images_count": 0,
             "images": [],
             "headings_detected": [
+              "1. Introduction and Problem Formulations",
               "2. Project 1: Spam Email Detection",
-              "2.2. Experimental Design and Leakage Prevention",
               "( 1 + N"
             ]
           },
@@ -361,11 +366,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 7,
+            "col1_boxes_count": 6,
             "col2_boxes_count": 13,
-            "col1_vertical_span": 606.7,
-            "col2_vertical_span": 605.2,
-            "vertical_difference": 1.5
+            "col1_vertical_span": 608.0,
+            "col2_vertical_span": 606.4,
+            "vertical_difference": 1.6
           }
         },
         {
@@ -388,48 +393,48 @@
           "margins": {
             "left": 46.5,
             "right": 45.1,
-            "top": 51.7,
+            "top": 51.3,
             "bottom": 14.1
           },
           "content_stats": {
-            "text_char_count": 4230,
-            "text_blocks_count": 28,
+            "text_char_count": 4537,
+            "text_blocks_count": 19,
             "images_count": 3,
             "images": [
               {
-                "xref": 21,
-                "rect": [
-                  69.4,
-                  442.4,
-                  275.5,
-                  619.1
-                ],
-                "width": 206.1,
-                "height": 176.6,
-                "centered": false
-              },
-              {
                 "xref": 24,
                 "rect": [
-                  313.9,
-                  378.9,
-                  434.5,
-                  426.3
+                  349.1,
+                  46.8,
+                  530.0,
+                  201.9
                 ],
-                "width": 120.6,
-                "height": 47.4,
+                "width": 180.9,
+                "height": 155.1,
                 "centered": false
               },
               {
-                "xref": 26,
+                "xref": 27,
                 "rect": [
-                  444.6,
-                  352.6,
-                  565.2,
-                  426.3
+                  313.9,
+                  401.5,
+                  434.5,
+                  491.9
                 ],
                 "width": 120.6,
-                "height": 73.7,
+                "height": 90.5,
+                "centered": false
+              },
+              {
+                "xref": 29,
+                "rect": [
+                  444.6,
+                  410.3,
+                  565.2,
+                  491.9
+                ],
+                "width": 120.6,
+                "height": 81.6,
                 "centered": false
               }
             ],
@@ -440,11 +445,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 16,
-            "col2_boxes_count": 11,
-            "col1_vertical_span": 582.2,
-            "col2_vertical_span": 579.2,
-            "vertical_difference": 3.0
+            "col1_boxes_count": 11,
+            "col2_boxes_count": 9,
+            "col1_vertical_span": 726.6,
+            "col2_vertical_span": 572.0,
+            "vertical_difference": 154.7
           }
         },
         {
@@ -465,18 +470,19 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.5,
+            "left": 46.3,
             "right": 45.1,
-            "top": 51.7,
+            "top": 51.5,
             "bottom": 14.1
           },
           "content_stats": {
-            "text_char_count": 4222,
-            "text_blocks_count": 29,
+            "text_char_count": 5640,
+            "text_blocks_count": 21,
             "images_count": 0,
             "images": [],
             "headings_detected": [
-              "3. Project 2: Dry Bean Morphological Cluster-"
+              "3. Project 2: Dry Bean Morphological Cluster-",
+              "3.1. Data Hygiene, Skewness, and Feature Scaling"
             ]
           },
           "anomalies": {
@@ -484,11 +490,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 5,
-            "col2_boxes_count": 13,
-            "col1_vertical_span": 212.0,
-            "col2_vertical_span": 661.7,
-            "vertical_difference": 449.7
+            "col1_boxes_count": 11,
+            "col2_boxes_count": 8,
+            "col1_vertical_span": 581.9,
+            "col2_vertical_span": 583.2,
+            "vertical_difference": 1.3
           }
         },
         {
@@ -509,47 +515,47 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.3,
+            "left": 46.5,
             "right": 45.1,
-            "top": 193.7,
+            "top": 51.0,
             "bottom": 14.1
           },
           "content_stats": {
-            "text_char_count": 3527,
-            "text_blocks_count": 17,
+            "text_char_count": 4805,
+            "text_blocks_count": 24,
             "images_count": 3,
             "images": [
               {
-                "xref": 40,
+                "xref": 43,
                 "rect": [
                   46.8,
-                  122.7,
+                  440.1,
                   212.7,
-                  187.6
+                  505.1
                 ],
                 "width": 165.9,
                 "height": 64.9,
                 "centered": false
               },
               {
-                "xref": 42,
+                "xref": 45,
                 "rect": [
                   223.1,
-                  46.8,
+                  364.2,
                   388.9,
-                  187.6
+                  505.1
                 ],
                 "width": 165.9,
                 "height": 140.8,
                 "centered": true
               },
               {
-                "xref": 44,
+                "xref": 47,
                 "rect": [
                   399.3,
-                  46.8,
+                  364.2,
                   565.2,
-                  187.6
+                  505.1
                 ],
                 "width": 165.9,
                 "height": 140.8,
@@ -557,9 +563,7 @@
               }
             ],
             "headings_detected": [
-              "3.2. Spectral Decomposition and PCA Dimensionality",
-              "3.3. Four-Con\ufb01guration Clustering Benchmark (k = 7)",
-              "3.4. Dimensionality Reduction vs. 2D Visual Display"
+              "3.5. Dimensionality Reduction vs. 2D Visual Display"
             ]
           },
           "anomalies": {
@@ -567,11 +571,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 9,
-            "col2_boxes_count": 7,
-            "col1_vertical_span": 527.4,
-            "col2_vertical_span": 528.2,
-            "vertical_difference": 0.8
+            "col1_boxes_count": 5,
+            "col2_boxes_count": 6,
+            "col1_vertical_span": 209.8,
+            "col2_vertical_span": 678.6,
+            "vertical_difference": 468.8
           }
         },
         {
@@ -594,18 +598,16 @@
           "margins": {
             "left": 46.3,
             "right": 45.1,
-            "top": 51.1,
+            "top": 49.5,
             "bottom": 14.1
           },
           "content_stats": {
-            "text_char_count": 4793,
-            "text_blocks_count": 23,
+            "text_char_count": 3747,
+            "text_blocks_count": 19,
             "images_count": 0,
             "images": [],
             "headings_detected": [
-              "3.6. Submission Assignment File Veri\ufb01cation",
-              "4. Discussion and Engineering Synthesis",
-              "5. Conclusion"
+              "PC"
             ]
           },
           "anomalies": {
@@ -614,10 +616,10 @@
           },
           "two_col_stats": {
             "col1_boxes_count": 9,
-            "col2_boxes_count": 12,
-            "col1_vertical_span": 726.7,
-            "col2_vertical_span": 726.7,
-            "vertical_difference": 0.0
+            "col2_boxes_count": 11,
+            "col1_vertical_span": 725.8,
+            "col2_vertical_span": 728.4,
+            "vertical_difference": 2.5
           }
         },
         {
@@ -638,14 +640,14 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.8,
-            "right": 303.5,
-            "top": 48.0,
+            "left": 46.5,
+            "right": 45.7,
+            "top": 170.4,
             "bottom": 14.1
           },
           "content_stats": {
-            "text_char_count": 746,
-            "text_blocks_count": 9,
+            "text_char_count": 1622,
+            "text_blocks_count": 14,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -655,11 +657,11 @@
             "orphaned_headings": []
           },
           "two_col_stats": {
-            "col1_boxes_count": 9,
-            "col2_boxes_count": 1,
-            "col1_vertical_span": 729.9,
-            "col2_vertical_span": 10.0,
-            "vertical_difference": 719.9
+            "col1_boxes_count": 4,
+            "col2_boxes_count": 8,
+            "col1_vertical_span": 607.5,
+            "col2_vertical_span": 607.5,
+            "vertical_difference": 0.0
           }
         }
       ]
@@ -698,18 +700,18 @@
           },
           "margins": {
             "left": 46.3,
-            "right": 45.1,
+            "right": 45.0,
             "top": 55.6,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 5164,
-            "text_blocks_count": 25,
+            "text_char_count": 5132,
+            "text_blocks_count": 24,
             "images_count": 0,
             "images": [],
             "headings_detected": [
+              "1. Introduction and Problem Formulations",
               "2. Project 1: Spam Email Detection",
-              "2.2. Experimental Design and Leakage Prevention",
               "( 1 + \ud835\udc41"
             ]
           },
@@ -737,54 +739,56 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.4,
-            "right": 45.1,
-            "top": 51.2,
+            "left": 46.5,
+            "right": 44.6,
+            "top": 48.8,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4374,
-            "text_blocks_count": 28,
+            "text_char_count": 4855,
+            "text_blocks_count": 21,
             "images_count": 3,
             "images": [
               {
-                "xref": 28,
+                "xref": 31,
                 "rect": [
-                  69.4,
-                  376.3,
-                  275.5,
-                  552.9
+                  82.0,
+                  458.7,
+                  262.9,
+                  613.8
                 ],
-                "width": 206.1,
-                "height": 176.6,
+                "width": 180.9,
+                "height": 155.1,
                 "centered": false
               },
               {
-                "xref": 32,
+                "xref": 35,
                 "rect": [
                   313.9,
-                  379.4,
+                  241.3,
                   434.5,
-                  426.7
+                  331.8
                 ],
                 "width": 120.6,
-                "height": 47.4,
+                "height": 90.5,
                 "centered": false
               },
               {
-                "xref": 34,
+                "xref": 37,
                 "rect": [
                   444.6,
-                  353.0,
+                  250.2,
                   565.2,
-                  426.7
+                  331.8
                 ],
                 "width": 120.6,
-                "height": 73.7,
+                "height": 81.6,
                 "centered": false
               }
             ],
-            "headings_detected": []
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Cluster-"
+            ]
           },
           "anomalies": {
             "overfull_boxes": [],
@@ -810,20 +814,54 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.4,
-            "right": 45.1,
-            "top": 51.8,
+            "left": 46.5,
+            "right": 44.7,
+            "top": 51.1,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4610,
-            "text_blocks_count": 31,
-            "images_count": 0,
-            "images": [],
-            "headings_detected": [
-              "3. Project 2: Dry Bean Morphological Cluster-",
-              "3.2. Spectral Decomposition and PCA Dimensionality"
-            ]
+            "text_char_count": 4437,
+            "text_blocks_count": 17,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 43,
+                "rect": [
+                  46.8,
+                  260.0,
+                  212.7,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 45,
+                "rect": [
+                  223.1,
+                  184.1,
+                  388.9,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 47,
+                "rect": [
+                  399.3,
+                  184.1,
+                  565.2,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
+            "headings_detected": []
           },
           "anomalies": {
             "overfull_boxes": [],
@@ -849,53 +887,16 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.5,
-            "right": 45.1,
-            "top": 193.8,
+            "left": 46.4,
+            "right": 45.0,
+            "top": 50.8,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4035,
-            "text_blocks_count": 17,
-            "images_count": 3,
-            "images": [
-              {
-                "xref": 51,
-                "rect": [
-                  46.8,
-                  122.7,
-                  212.7,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 64.9,
-                "centered": false
-              },
-              {
-                "xref": 53,
-                "rect": [
-                  223.1,
-                  46.8,
-                  388.9,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 140.8,
-                "centered": true
-              },
-              {
-                "xref": 55,
-                "rect": [
-                  399.3,
-                  46.8,
-                  565.2,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 140.8,
-                "centered": false
-              }
-            ],
+            "text_char_count": 5883,
+            "text_blocks_count": 32,
+            "images_count": 0,
+            "images": [],
             "headings_detected": []
           },
           "anomalies": {
@@ -928,13 +929,13 @@
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4249,
-            "text_blocks_count": 27,
+            "text_char_count": 4730,
+            "text_blocks_count": 28,
             "images_count": 0,
             "images": [],
             "headings_detected": [
-              "4. Discussion and Engineering Synthesis",
-              "5. Conclusion"
+              "3.7. Submission Cluster Assignment File Verification",
+              "4. Discussion and Methodological Synthesis"
             ]
           },
           "anomalies": {
@@ -952,9 +953,9 @@
       "type": "report",
       "style_theme": "MIT Press Technical Monograph / Palatino Serif",
       "compliance": {
-        "total_pages": 5,
-        "ref_start_page": 5,
-        "pages_before_references": 4,
+        "total_pages": 6,
+        "ref_start_page": 6,
+        "pages_before_references": 5,
         "max_allowed_pages": 6,
         "page_count_compliant": true,
         "status": "PASS"
@@ -978,20 +979,21 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 60.9,
+            "left": 61.2,
             "right": 59.5,
-            "top": 70.5,
+            "top": 72.8,
             "bottom": 22.0
           },
           "content_stats": {
-            "text_char_count": 4314,
+            "text_char_count": 4197,
             "text_blocks_count": 19,
             "images_count": 0,
             "images": [],
             "headings_detected": [
               "1. Introduction and Problem Formulations",
               "2. Project 1: Spam Email Detection",
-              "2.2. Experimental Design and Leakage Prevention"
+              "2.2. Experimental Design, Leakage Prevention, and Models",
+              "( 1 + \ud835\udc41"
             ]
           },
           "anomalies": {
@@ -1018,57 +1020,17 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 61.2,
-            "right": 59.5,
-            "top": 54.5,
+            "left": 60.8,
+            "right": 57.1,
+            "top": 56.0,
             "bottom": 22.0
           },
           "content_stats": {
-            "text_char_count": 3569,
-            "text_blocks_count": 19,
-            "images_count": 3,
-            "images": [
-              {
-                "xref": 26,
-                "rect": [
-                  61.2,
-                  359.3,
-                  247.3,
-                  518.8
-                ],
-                "width": 186.1,
-                "height": 159.5,
-                "centered": false
-              },
-              {
-                "xref": 28,
-                "rect": [
-                  266.8,
-                  432.6,
-                  403.1,
-                  486.2
-                ],
-                "width": 136.3,
-                "height": 53.5,
-                "centered": true
-              },
-              {
-                "xref": 30,
-                "rect": [
-                  414.5,
-                  402.9,
-                  550.8,
-                  486.2
-                ],
-                "width": 136.3,
-                "height": 83.3,
-                "centered": false
-              }
-            ],
-            "headings_detected": [
-              "F1",
-              "FPR"
-            ]
+            "text_char_count": 4740,
+            "text_blocks_count": 18,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
           },
           "anomalies": {
             "overfull_boxes": [],
@@ -1094,19 +1056,55 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 61.2,
-            "right": 61.2,
-            "top": 79.9,
+            "left": 60.9,
+            "right": 59.5,
+            "top": 184.5,
             "bottom": 22.0
           },
           "content_stats": {
-            "text_char_count": 3212,
-            "text_blocks_count": 33,
-            "images_count": 0,
-            "images": [],
+            "text_char_count": 3363,
+            "text_blocks_count": 15,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 33,
+                "rect": [
+                  61.2,
+                  54.0,
+                  227.7,
+                  196.7
+                ],
+                "width": 166.5,
+                "height": 142.7,
+                "centered": false
+              },
+              {
+                "xref": 35,
+                "rect": [
+                  247.3,
+                  70.7,
+                  393.0,
+                  180.0
+                ],
+                "width": 145.7,
+                "height": 109.3,
+                "centered": true
+              },
+              {
+                "xref": 37,
+                "rect": [
+                  405.1,
+                  81.3,
+                  550.8,
+                  180.0
+                ],
+                "width": 145.7,
+                "height": 98.6,
+                "centered": false
+              }
+            ],
             "headings_detected": [
-              "F1",
-              "FPR"
+              "3. Project 2: Dry Bean Morphological Clustering"
             ]
           },
           "anomalies": {
@@ -1133,20 +1131,55 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 60.8,
+            "left": 60.9,
             "right": 59.5,
-            "top": 56.0,
+            "top": 58.0,
             "bottom": 22.0
           },
           "content_stats": {
-            "text_char_count": 3709,
-            "text_blocks_count": 24,
-            "images_count": 0,
-            "images": [],
+            "text_char_count": 4646,
+            "text_blocks_count": 22,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 50,
+                "rect": [
+                  61.2,
+                  505.4,
+                  217.9,
+                  566.6
+                ],
+                "width": 156.7,
+                "height": 61.3,
+                "centered": false
+              },
+              {
+                "xref": 52,
+                "rect": [
+                  227.7,
+                  433.7,
+                  384.3,
+                  566.6
+                ],
+                "width": 156.7,
+                "height": 133.0,
+                "centered": true
+              },
+              {
+                "xref": 54,
+                "rect": [
+                  394.1,
+                  433.7,
+                  550.8,
+                  566.6
+                ],
+                "width": 156.7,
+                "height": 133.0,
+                "centered": false
+              }
+            ],
             "headings_detected": [
-              "3. Project 2: Dry Bean Morphological Clustering",
-              "3.2. Spectral Decomposition and PCA Dimensionality Choice",
-              "4. Discussion and Engineering Synthesis"
+              "3.2. PCA Dimensionality Selection: Kaiser Rule vs. 95% Variance"
             ]
           },
           "anomalies": {
@@ -1173,54 +1206,54 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 60.9,
-            "right": 59.5,
-            "top": 193.2,
+            "left": 60.8,
+            "right": 40.2,
+            "top": 58.7,
             "bottom": 22.0
           },
           "content_stats": {
-            "text_char_count": 2233,
-            "text_blocks_count": 20,
-            "images_count": 3,
-            "images": [
-              {
-                "xref": 53,
-                "rect": [
-                  61.2,
-                  125.7,
-                  217.9,
-                  187.0
-                ],
-                "width": 156.7,
-                "height": 61.3,
-                "centered": false
-              },
-              {
-                "xref": 55,
-                "rect": [
-                  227.7,
-                  54.0,
-                  384.3,
-                  187.0
-                ],
-                "width": 156.7,
-                "height": 133.0,
-                "centered": true
-              },
-              {
-                "xref": 57,
-                "rect": [
-                  394.1,
-                  54.0,
-                  550.8,
-                  187.0
-                ],
-                "width": 156.7,
-                "height": 133.0,
-                "centered": false
-              }
+            "text_char_count": 3766,
+            "text_blocks_count": 25,
+            "images_count": 0,
+            "images": [],
+            "headings_detected": []
+          },
+          "anomalies": {
+            "overfull_boxes": [],
+            "orphaned_headings": []
+          },
+          "two_col_stats": null
+        },
+        {
+          "page_num": 6,
+          "dimensions_pt": [
+            612.0,
+            792.0
+          ],
+          "aspect_ratio": 0.773,
+          "rendered_png": "report_v4_monograph_p6.png",
+          "color_stats": {
+            "bg_rgb": [
+              255,
+              255,
+              255
             ],
+            "is_dark_mode": false,
+            "brightness": 255.0
+          },
+          "margins": {
+            "left": 60.9,
+            "right": 15.3,
+            "top": 56.0,
+            "bottom": 22.0
+          },
+          "content_stats": {
+            "text_char_count": 3338,
+            "text_blocks_count": 16,
+            "images_count": 0,
+            "images": [],
             "headings_detected": [
+              "4. Discussion and Methodological Synthesis",
               "5. Conclusion"
             ]
           },
@@ -1271,13 +1304,14 @@
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 5187,
+            "text_char_count": 5302,
             "text_blocks_count": 25,
             "images_count": 0,
             "images": [],
             "headings_detected": [
+              "1. Introduction and Problem Formulations",
               "2. Project 1: Spam Email Detection",
-              "2.2. Experimental Design and Leakage Prevention",
+              "2.2. Experimental Design, Leakage Prevention, and Models",
               "( 1 + \ud835\udc41"
             ]
           },
@@ -1305,54 +1339,56 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.4,
+            "left": 46.5,
             "right": 45.1,
-            "top": 51.2,
+            "top": 49.0,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4374,
-            "text_blocks_count": 28,
+            "text_char_count": 4973,
+            "text_blocks_count": 23,
             "images_count": 3,
             "images": [
               {
-                "xref": 26,
+                "xref": 29,
                 "rect": [
-                  69.4,
-                  376.3,
-                  275.5,
-                  552.9
+                  82.0,
+                  422.4,
+                  262.9,
+                  577.4
                 ],
-                "width": 206.1,
-                "height": 176.6,
+                "width": 180.9,
+                "height": 155.1,
                 "centered": false
               },
               {
-                "xref": 30,
+                "xref": 33,
                 "rect": [
                   313.9,
-                  379.4,
+                  194.0,
                   434.5,
-                  426.7
+                  284.5
                 ],
                 "width": 120.6,
-                "height": 47.4,
+                "height": 90.5,
                 "centered": false
               },
               {
-                "xref": 32,
+                "xref": 35,
                 "rect": [
                   444.6,
-                  353.0,
+                  202.8,
                   565.2,
-                  426.7
+                  284.5
                 ],
                 "width": 120.6,
-                "height": 73.7,
+                "height": 81.6,
                 "centered": false
               }
             ],
-            "headings_detected": []
+            "headings_detected": [
+              "3. Project 2: Dry Bean Morphological Clustering"
+            ]
           },
           "anomalies": {
             "overfull_boxes": [],
@@ -1378,18 +1414,55 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.4,
+            "left": 46.5,
             "right": 45.1,
-            "top": 51.8,
+            "top": 51.1,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4690,
-            "text_blocks_count": 30,
-            "images_count": 0,
-            "images": [],
+            "text_char_count": 4610,
+            "text_blocks_count": 18,
+            "images_count": 3,
+            "images": [
+              {
+                "xref": 41,
+                "rect": [
+                  46.8,
+                  260.0,
+                  212.7,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 64.9,
+                "centered": false
+              },
+              {
+                "xref": 43,
+                "rect": [
+                  223.1,
+                  184.1,
+                  388.9,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": true
+              },
+              {
+                "xref": 45,
+                "rect": [
+                  399.3,
+                  184.1,
+                  565.2,
+                  324.9
+                ],
+                "width": 165.9,
+                "height": 140.8,
+                "centered": false
+              }
+            ],
             "headings_detected": [
-              "3. Project 2: Dry Bean Morphological Clustering"
+              "3.2. PCA Dimensionality Selection: Kaiser Rule vs. 95%"
             ]
           },
           "anomalies": {
@@ -1416,55 +1489,18 @@
             "brightness": 255.0
           },
           "margins": {
-            "left": 46.5,
+            "left": 46.4,
             "right": 45.1,
-            "top": 193.8,
+            "top": 50.8,
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4008,
-            "text_blocks_count": 16,
-            "images_count": 3,
-            "images": [
-              {
-                "xref": 49,
-                "rect": [
-                  46.8,
-                  122.7,
-                  212.7,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 64.9,
-                "centered": false
-              },
-              {
-                "xref": 51,
-                "rect": [
-                  223.1,
-                  46.8,
-                  388.9,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 140.8,
-                "centered": true
-              },
-              {
-                "xref": 53,
-                "rect": [
-                  399.3,
-                  46.8,
-                  565.2,
-                  187.6
-                ],
-                "width": 165.9,
-                "height": 140.8,
-                "centered": false
-              }
-            ],
+            "text_char_count": 5743,
+            "text_blocks_count": 33,
+            "images_count": 0,
+            "images": [],
             "headings_detected": [
-              "3.3. Four-Configuration Clustering Benchmark (\ud835\udc58= 7)"
+              "3.6. Morphological Cluster Profiles and Archetype Charac-"
             ]
           },
           "anomalies": {
@@ -1497,14 +1533,11 @@
             "bottom": 14.7
           },
           "content_stats": {
-            "text_char_count": 4192,
-            "text_blocks_count": 27,
+            "text_char_count": 4351,
+            "text_blocks_count": 26,
             "images_count": 0,
             "images": [],
-            "headings_detected": [
-              "4. Discussion and Engineering Synthesis",
-              "5. Conclusion"
-            ]
+            "headings_detected": []
           },
           "anomalies": {
             "overfull_boxes": [],
@@ -1551,11 +1584,11 @@
           "margins": {
             "left": 47.0,
             "right": 2.2,
-            "top": 66.0,
+            "top": 66.6,
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 310,
+            "text_char_count": 306,
             "text_blocks_count": 46,
             "images_count": 0,
             "images": [],
@@ -1632,7 +1665,7 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 749,
+            "text_char_count": 772,
             "text_blocks_count": 48,
             "images_count": 0,
             "images": [],
@@ -1709,7 +1742,7 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 824,
+            "text_char_count": 830,
             "text_blocks_count": 49,
             "images_count": 0,
             "images": [],
@@ -1806,7 +1839,7 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 1087,
+            "text_char_count": 1242,
             "text_blocks_count": 45,
             "images_count": 0,
             "images": [],
@@ -1883,32 +1916,32 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 439,
+            "text_char_count": 592,
             "text_blocks_count": 43,
             "images_count": 2,
             "images": [
               {
-                "xref": 186,
+                "xref": 184,
                 "rect": [
                   12.4,
-                  32.4,
+                  31.1,
                   220.6,
-                  210.8
+                  209.5
                 ],
                 "width": 208.1,
                 "height": 178.4,
                 "centered": false
               },
               {
-                "xref": 188,
+                "xref": 186,
                 "rect": [
                   233.0,
-                  58.0,
+                  49.8,
                   441.1,
-                  185.2
+                  190.7
                 ],
                 "width": 208.1,
-                "height": 127.2,
+                "height": 140.9,
                 "centered": false
               }
             ],
@@ -1949,12 +1982,12 @@
               {
                 "box": [
                   10.0,
-                  215.0,
-                  443.6,
-                  242.1
+                  212.4,
+                  442.4,
+                  250.2
                 ],
-                "snippet": "Asymmetric Cost Optimization: Legitimate message loss (FP) i",
-                "excess": 5.0
+                "snippet": "Threshold Hierarchy & Asymmetric Cost Optimization: Deployed",
+                "excess": 3.8
               },
               {
                 "box": [
@@ -1991,11 +2024,11 @@
           "margins": {
             "left": 6.6,
             "right": 2.2,
-            "top": 8.9,
+            "top": 6.9,
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 917,
+            "text_char_count": 948,
             "text_blocks_count": 50,
             "images_count": 0,
             "images": [],
@@ -2036,9 +2069,9 @@
               {
                 "box": [
                   230.1,
-                  85.6,
+                  86.3,
                   446.9,
-                  97.8
+                  98.5
                 ],
                 "snippet": "False Negative Mechanisms (Spam \u2192Ham)",
                 "excess": 8.4
@@ -2046,12 +2079,12 @@
               {
                 "box": [
                   250.0,
-                  158.2,
-                  446.7,
-                  173.4
+                  105.0,
+                  439.3,
+                  128.3
                 ],
-                "snippet": "Conversational Lure (#468, P = 0.19): \"Hi this is\nAmy...\". C",
-                "excess": 8.1
+                "snippet": "Premium Rate Dialing (#193, P = 0.05): Premium SMS\ncomplaint",
+                "excess": 0.7
               },
               {
                 "box": [
@@ -2092,17 +2125,17 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 662,
+            "text_char_count": 743,
             "text_blocks_count": 47,
             "images_count": 1,
             "images": [
               {
-                "xref": 270,
+                "xref": 273,
                 "rect": [
                   230.1,
-                  86.8,
+                  87.7,
                   446.9,
-                  171.6
+                  172.6
                 ],
                 "width": 216.8,
                 "height": 84.8,
@@ -2187,7 +2220,7 @@
             "images_count": 2,
             "images": [
               {
-                "xref": 300,
+                "xref": 302,
                 "rect": [
                   6.6,
                   106.2,
@@ -2199,7 +2232,7 @@
                 "centered": false
               },
               {
-                "xref": 302,
+                "xref": 304,
                 "rect": [
                   230.1,
                   106.2,
@@ -2304,7 +2337,7 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 1061,
+            "text_char_count": 1086,
             "text_blocks_count": 45,
             "images_count": 0,
             "images": [],
@@ -2341,6 +2374,16 @@
                 ],
                 "snippet": ".",
                 "excess": 12.8
+              },
+              {
+                "box": [
+                  10.0,
+                  164.6,
+                  438.7,
+                  182.0
+                ],
+                "snippet": "Morphological Archetypes: True botanical class was unobserve",
+                "excess": 0.2
               },
               {
                 "box": [
@@ -2381,7 +2424,7 @@
             "bottom": 1.1
           },
           "content_stats": {
-            "text_char_count": 785,
+            "text_char_count": 783,
             "text_blocks_count": 52,
             "images_count": 0,
             "images": [],
@@ -2547,8 +2590,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 460,
-            "text_blocks_count": 6,
+            "text_char_count": 562,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -2583,8 +2626,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 511,
-            "text_blocks_count": 6,
+            "text_char_count": 632,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -2619,8 +2662,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 409,
-            "text_blocks_count": 5,
+            "text_char_count": 594,
+            "text_blocks_count": 6,
             "images_count": 1,
             "images": [
               {
@@ -2668,7 +2711,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 543,
+            "text_char_count": 600,
             "text_blocks_count": 5,
             "images_count": 0,
             "images": [],
@@ -2704,8 +2747,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 472,
-            "text_blocks_count": 6,
+            "text_char_count": 589,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -2753,8 +2796,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 498,
-            "text_blocks_count": 6,
+            "text_char_count": 623,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -2802,7 +2845,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 655,
+            "text_char_count": 1024,
             "text_blocks_count": 9,
             "images_count": 0,
             "images": [],
@@ -2838,7 +2881,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 524,
+            "text_char_count": 537,
             "text_blocks_count": 6,
             "images_count": 0,
             "images": [],
@@ -2963,8 +3006,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 463,
-            "text_blocks_count": 6,
+            "text_char_count": 565,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -2999,8 +3042,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 514,
-            "text_blocks_count": 6,
+            "text_char_count": 635,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -3035,8 +3078,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 412,
-            "text_blocks_count": 5,
+            "text_char_count": 597,
+            "text_blocks_count": 6,
             "images_count": 1,
             "images": [
               {
@@ -3084,7 +3127,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 546,
+            "text_char_count": 603,
             "text_blocks_count": 5,
             "images_count": 0,
             "images": [],
@@ -3120,8 +3163,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 475,
-            "text_blocks_count": 6,
+            "text_char_count": 592,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -3169,8 +3212,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 501,
-            "text_blocks_count": 6,
+            "text_char_count": 626,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -3218,7 +3261,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 658,
+            "text_char_count": 1027,
             "text_blocks_count": 9,
             "images_count": 0,
             "images": [],
@@ -3254,7 +3297,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 527,
+            "text_char_count": 540,
             "text_blocks_count": 6,
             "images_count": 0,
             "images": [],
@@ -3379,8 +3422,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 464,
-            "text_blocks_count": 6,
+            "text_char_count": 566,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -3415,8 +3458,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 515,
-            "text_blocks_count": 6,
+            "text_char_count": 636,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -3451,8 +3494,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 413,
-            "text_blocks_count": 5,
+            "text_char_count": 598,
+            "text_blocks_count": 6,
             "images_count": 1,
             "images": [
               {
@@ -3500,7 +3543,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 547,
+            "text_char_count": 604,
             "text_blocks_count": 5,
             "images_count": 0,
             "images": [],
@@ -3536,8 +3579,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 476,
-            "text_blocks_count": 6,
+            "text_char_count": 593,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -3585,8 +3628,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 502,
-            "text_blocks_count": 6,
+            "text_char_count": 627,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -3634,7 +3677,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 659,
+            "text_char_count": 1028,
             "text_blocks_count": 9,
             "images_count": 0,
             "images": [],
@@ -3670,7 +3713,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 528,
+            "text_char_count": 541,
             "text_blocks_count": 6,
             "images_count": 0,
             "images": [],
@@ -3795,8 +3838,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 467,
-            "text_blocks_count": 6,
+            "text_char_count": 569,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -3831,8 +3874,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 518,
-            "text_blocks_count": 6,
+            "text_char_count": 639,
+            "text_blocks_count": 7,
             "images_count": 0,
             "images": [],
             "headings_detected": []
@@ -3867,8 +3910,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 416,
-            "text_blocks_count": 5,
+            "text_char_count": 601,
+            "text_blocks_count": 6,
             "images_count": 1,
             "images": [
               {
@@ -3916,7 +3959,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 550,
+            "text_char_count": 607,
             "text_blocks_count": 5,
             "images_count": 0,
             "images": [],
@@ -3952,8 +3995,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 479,
-            "text_blocks_count": 6,
+            "text_char_count": 596,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -4001,8 +4044,8 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 505,
-            "text_blocks_count": 6,
+            "text_char_count": 630,
+            "text_blocks_count": 7,
             "images_count": 1,
             "images": [
               {
@@ -4050,7 +4093,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 662,
+            "text_char_count": 1031,
             "text_blocks_count": 9,
             "images_count": 0,
             "images": [],
@@ -4086,7 +4129,7 @@
             "bottom": 16.9
           },
           "content_stats": {
-            "text_char_count": 531,
+            "text_char_count": 544,
             "text_blocks_count": 6,
             "images_count": 0,
             "images": [],

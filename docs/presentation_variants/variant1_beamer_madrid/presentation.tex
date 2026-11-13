@@ -25,7 +25,7 @@
 \subtitle{Supervised Spam Email Detection \& Unsupervised Dry Bean Morphological Clustering}
 \author[A. Dalwai]{\textbf{Adam Dalwai}}
 \institute[CS Dept]{Department of Computer Science}
-\date[Nov 2026]{November 13, 2026}
+\date[Nov 2026]{November 2026}
 
 \begin{document}
 
@@ -42,7 +42,7 @@
   \item \textbf{Representation:} Sublinear TF-IDF (14,800 features).
   \item \textbf{Validation:} 5-Fold Stratified CV with strict in-fold fitting.
   \item \textbf{Winner:} Calibrated Linear SVM ($C=2.0$, F1: 0.9401).
-  \item \textbf{Operational Tuning:} $\tau=0.70$ cuts Ham FPR by 50\%.
+  \item \textbf{Operational Tuning:} $\tau=0.70$ cuts Ham FPR by 49.2\% to 0.0094.
 \end{itemize}
 \end{block}
 \column{0.48\textwidth}
@@ -52,7 +52,7 @@
   \item \textbf{Ground Truth:} \texttt{Class} column strictly isolated.
   \item \textbf{PCA:} 4 components capture \textbf{95.02\%} variance.
   \item \textbf{Winner:} K-Means on 4D PCA features ($k=7$).
-  \item \textbf{Profiles:} Maps 7 clusters to Turkish cultivars.
+  \item \textbf{Profiles:} 7 distinct data-driven morphological archetypes.
 \end{itemize}
 \end{block}
 \end{columns}
@@ -63,7 +63,7 @@
 \begin{columns}
 \column{0.55\textwidth}
 \begin{itemize}
-  \item \textbf{SMS Delimiter Repair:} Reconciled fragmented columns (\texttt{v2}, \texttt{Unnamed: 2-4}) in Dataset~1.
+  \item \textbf{SMS Delimiter Repair:} Reconciled fragmented comma columns (\texttt{v2}, \texttt{Unnamed: 2-4}) in Dataset~1.
   \item \textbf{String Hash Deduplication:}
   \begin{itemize}
     \item 103 duplicate records identified and purged.
@@ -117,7 +117,8 @@ Multinomial Naive Bayes (Baseline) & 0.8781 & 0.7657 & \textbf{1.0000} & 0.4341 
 \bottomrule
 \end{tabularx}
 \end{table}
-\footnotesize \textbf{Key Takeaway:} MultinomialNB suffers catastrophic spam recall failure (0.4341) due to class imbalance prior overwhelm. Calibrated Linear SVM dominates across all primary metrics.
+\footnotesize
+\textbf{Statistical Significance \& Model Selection:} Paired two-tailed $t$-test shows Calibrated SVM vs SGD F1 difference is not statistically significant ($t=0.603, p=0.579$). LinearSVC and SGD achieve lower default Ham FPR (0.0091). Calibrated SVM is selected for Platt probability calibration enabling post-hoc operational threshold tuning.
 \end{frame}
 
 % SLIDE 5
@@ -130,28 +131,28 @@ Multinomial Naive Bayes (Baseline) & 0.8781 & 0.7657 & \textbf{1.0000} & 0.4341 
 \end{columns}
 \vspace{0.05in}
 \footnotesize
-\textbf{Asymmetric Cost Optimization:} Legitimate message loss ($FP$) is far costlier than missed spam ($FN$) ($c_{FP}/c_{FN} \approx 20$). Shifting $\tau$ from $0.50$ to $0.70$ cuts Ham FPR by 49.2\% (from 0.0185 down to \textbf{0.0094}, 31 FPs out of 3,290) while sustaining Spam F1 of 0.9133.
+\textbf{Threshold Hierarchy \& Asymmetric Cost Optimization:} Deployed baseline $\tau^*=0.50$ maximizes balanced F1 (0.9401) and Accuracy (0.9740). Risk-constrained optimization ($\min_\tau \text{Ham FPR}$ s.t. $\text{Recall} \ge 0.85$) selects $\tau=0.70$, cutting Ham FPR by 49.2\% to \textbf{0.0094} (only 31 FPs out of 3,290) at Spam F1 0.9133. Unconstrained linear cost minimum at $\tau=0.80$ is rejected due to severe recall collapse (238 spam leaks).
 \end{frame}
 
 % SLIDE 6
-\begin{frame}{Project 1: Forensic Qualitative Error Analysis}
+\begin{frame}{Project 1: Forensic Qualitative Error Analysis ($\tau^*=0.50$)}
 \begin{columns}
 \column{0.50\textwidth}
 \begin{block}{False Positive Mechanisms (Ham $\to$ Spam)}
 \scriptsize
 \begin{itemize}
-  \item \textbf{P2P Referral Solicitations (\#179, $P=0.78$):} \texttt{"free sms"} on \texttt{fullonsms.com}. \textit{Fix:} Domain graph reputation scoring.
-  \item \textbf{Intimate Romance (\#373, $P=0.76$):} Adult lexicon \texttt{"sex cuddling"}. \textit{Fix:} Syntactic intent parsing.
-  \item \textbf{Corporate Health Memo (\#4106, $P=0.84$):} FDA warning on \texttt{"phenylpropanolamine"}. \textit{Fix:} Internal header zoning.
+  \item \textbf{P2P Referral SMS (\#179, $P=0.78$):} \texttt{"free sms"} on \texttt{fullonsms.com}. \textit{Remedy:} Hostname vs URL path feature extraction.
+  \item \textbf{Intimate Romance (\#373, $P=0.76$):} Adult lexicon \texttt{"sex cuddling"}. \textit{Remedy:} Personal pronoun co-occurrence windowing.
+  \item \textbf{Corporate Health Memo (\#4106, $P=0.84$):} FDA warning on \texttt{"phenylpropanolamine"}. \textit{Remedy:} Quoted forward header zoning.
 \end{itemize}
 \end{block}
 \column{0.50\textwidth}
 \begin{block}{False Negative Mechanisms (Spam $\to$ Ham)}
 \scriptsize
 \begin{itemize}
-  \item \textbf{Phonetic Evasion (\#85, $P=0.44$):} \texttt{"hot horny BABES 0906636..."}. Spaced letters. \textit{Fix:} Sub-word character $n$-grams.
-  \item \textbf{Micro-Cap Promotion (\#404, $P=0.42$):} OTC ticker pump-and-dump disguised as research. \textit{Fix:} Financial regex extractor.
-  \item \textbf{Conversational Lure (\#468, $P=0.19$):} \texttt{"Hi this is Amy..."}. Casual hook. \textit{Fix:} Sequential change-point detection.
+  \item \textbf{Premium Rate Dialing (\#193, $P=0.05$):} Premium SMS complaint mimicry. \textit{Remedy:} Regex for UK dial codes (\texttt{0870}, \texttt{0871}).
+  \item \textbf{Phonetic Evasion (\#85, $P=0.08$):} \texttt{"filthyguys... Txt XXX"}. \textit{Remedy:} Subword character $n$-grams ($n \in [3, 5]$).
+  \item \textbf{Micro-Cap Promotion (\#404, $P=0.42$):} OTC pump-and-dump. \textit{Remedy:} Uppercase ticker regex (\texttt{"Symbol [A-Z]\{3,5\}"}).
 \end{itemize}
 \end{block}
 \end{columns}
@@ -167,17 +168,17 @@ Multinomial Naive Bayes (Baseline) & 0.8781 & 0.7657 & \textbf{1.0000} & 0.4341 
 \toprule
 \textbf{PC} & \textbf{Eigenval.} & \textbf{Var (\%)} & \textbf{Cum (\%)} & \textbf{Morphological Loading} \\
 \midrule
-PC1 & 8.8753 & 55.47 & 55.47 & Size / Scale (\texttt{Area}: +0.33) \\
+PC1 & 8.8753 & 55.47 & 55.47 & Scale / Size (\texttt{Area}: +0.33) \\
 PC2 & 4.2293 & 26.43 & 81.90 & Aspect Ratio (\texttt{AspectR}: +0.40) \\
-PC3 & 1.2811 & 8.01 & 89.90 & Smoothness (\texttt{Solidity}: +0.46) \\
-PC4 & 0.8183 & 5.11 & \textbf{95.02} & Extent (\texttt{Extent}: +0.72) \\
+PC3 & 1.2811 & 8.01 & 89.90 & Boundary Smoothness (\texttt{Solidity}: +0.46) \\
+PC4 & 0.8183 & 5.11 & \textbf{95.02} & Bounding Occupancy (\texttt{Extent}: +0.72) \\
 \midrule
-PC5-16 & $<0.44$ & $<2.74$ & 100.00 & Collinear scale noise ($r > 0.98$) \\
+PC5-16 & $<0.44$ & $<2.74$ & 100.00 & Residual measurement noise \\
 \bottomrule
 \end{tabular}
 \end{block}
 \footnotesize
-\textbf{Selection Justification:} 4 PCs retain \textbf{95.02\%} variance, compress space by 75\% (16D $\to$ 4D), and filter multicollinear geometric redundancies.
+\textbf{Dimensionality \& Stability:} Kaiser rule ($\lambda>1$) retains 3 PCs (89.90\%); 95\% threshold retains 4 PCs (\textbf{95.02\%}). 10-seed K-Means evaluation yields mean pairwise ARI = \textbf{0.9978}, proving partition invariance.
 \column{0.50\textwidth}
 \includegraphics[width=\textwidth]{figures/drybean_pca_variance.png}
 \end{columns}
@@ -209,27 +210,27 @@ Config 4: GMM & PCA (4D, 95.02\% Var) & 0.3020 & 7,618.59 & 1.2245 \\
 \end{frame}
 
 % SLIDE 9
-\begin{frame}{Project 2: Botanical Cultivar Morphological Profiles}
+\begin{frame}{Project 2: Discovered Morphological Cluster Archetypes}
 \begin{table}
 \centering
 \scriptsize
-\setlength{\tabcolsep}{4.5pt}
+\setlength{\tabcolsep}{3.5pt}
 \begin{tabularx}{\textwidth}{c r r c c c l}
 \toprule
-\textbf{Cluster} & \textbf{Count} & \textbf{Share} & \textbf{Area ($\text{px}^2$)} & \textbf{Aspect Ratio} & \textbf{Compactness} & \textbf{Botanical Cultivar Mapping} \\
+\textbf{Cluster} & \textbf{Count} & \textbf{Share} & \textbf{Area ($\text{px}^2$)} & \textbf{Aspect Ratio} & \textbf{Compactness} & \textbf{Morphological Cluster Archetype} \\
 \midrule
-C0 & 519 & 3.8\% & 63,737 $\pm$ 4,142 & 1.779 $\pm$ 0.082 & 0.745 $\pm$ 0.019 & \textbf{Cali} (Medium-large elongated) \\
-C1 & 3,262 & 24.0\% & 31,927 $\pm$ 2,512 & 1.476 $\pm$ 0.087 & 0.823 $\pm$ 0.024 & \textbf{Dermason} (Compact small oval) \\
-C2 & 2,476 & 18.2\% & 74,341 $\pm$ 5,321 & 1.651 $\pm$ 0.091 & 0.778 $\pm$ 0.022 & \textbf{Barbunya} (Large oval/kidney) \\
-C3 & 2,021 & 14.9\% & 39,389 $\pm$ 3,114 & 1.235 $\pm$ 0.071 & 0.900 $\pm$ 0.025 & \textbf{Seker} (Small highly spherical) \\
-C4 & 521 & 3.8\% & 173,557 $\pm$ 15,230 & 1.585 $\pm$ 0.095 & 0.793 $\pm$ 0.026 & \textbf{Bombay} (Giant macro-specimen) \\
-C5 & 3,042 & 22.4\% & 44,602 $\pm$ 3,480 & 1.576 $\pm$ 0.089 & 0.796 $\pm$ 0.024 & \textbf{Sira} (Medium-small standard) \\
-C6 & 1,770 & 13.0\% & 53,695 $\pm$ 4,210 & 2.039 $\pm$ 0.124 & 0.699 $\pm$ 0.023 & \textbf{Horoz} (Slender cylindrical) \\
+C0 & 519 & 3.8\% & 63,737 $\pm$ 14,259 & 1.779 $\pm$ 0.168 & 0.745 $\pm$ 0.037 & \textbf{Medium-Large Elongated Seeds} \\
+C1 & 3,262 & 24.0\% & 31,927 $\pm$ 4,667 & 1.475 $\pm$ 0.079 & 0.823 $\pm$ 0.022 & \textbf{Small Compact Elliptical Seeds} \\
+C2 & 2,476 & 18.2\% & 74,341 $\pm$ 9,213 & 1.651 $\pm$ 0.135 & 0.778 $\pm$ 0.034 & \textbf{Large Broad Oval Seeds} \\
+C3 & 2,021 & 14.9\% & 39,389 $\pm$ 5,270 & 1.235 $\pm$ 0.064 & 0.900 $\pm$ 0.024 & \textbf{Small Compact Spherical Seeds} \\
+C4 & 521 & 3.8\% & 173,557 $\pm$ 23,289 & 1.585 $\pm$ 0.119 & 0.793 $\pm$ 0.031 & \textbf{Giant Macroscopic Seeds} \\
+C5 & 3,042 & 22.4\% & 44,602 $\pm$ 5,387 & 1.576 $\pm$ 0.088 & 0.796 $\pm$ 0.022 & \textbf{Medium Compact Oval Seeds} \\
+C6 & 1,770 & 13.0\% & 53,695 $\pm$ 7,229 & 2.039 $\pm$ 0.122 & 0.699 $\pm$ 0.021 & \textbf{Long Cylindrical Kidney Seeds} \\
 \bottomrule
 \end{tabularx}
 \end{table}
 \footnotesize
-\textbf{Dimensionality Distinction:} Clustering operates in 4D space (capturing 95.02\% variance). Apparent overlaps in 2D projections (81.90\% variance) are fully resolved across PC3 and PC4.
+\textbf{Morphological Archetypes:} True botanical class was unobserved and strictly isolated; clusters reflect empirical geometric archetypes. Multi-seed stability across 10 random seeds yields mean pairwise ARI = \textbf{0.9978}.
 \end{frame}
 
 % SLIDE 10
@@ -240,7 +241,7 @@ C6 & 1,770 & 13.0\% & 53,695 $\pm$ 4,210 & 2.039 $\pm$ 0.124 & 0.699 $\pm$ 0.023
 \small
 \begin{itemize}
   \item \textbf{Supervised Victory:} Calibrated Linear SVM ($C=2.0$) achieved Spam F1 0.9401. Tuning $\tau=0.70$ halved false alarms to 0.0094.
-  \item \textbf{Unsupervised Victory:} K-Means on 4D PCA features maximized cohesion (CH 9,134.22) and accurately reconstructed 7 botanical varieties.
+  \item \textbf{Unsupervised Victory:} K-Means on 4D PCA features maximized cohesion (CH 9,134.22) and discovered 7 robust morphological archetypes.
   \item \textbf{Engineering Rigor:} Complete reproducibility via single command \texttt{python3 src/run\_all.py} in 36.8 seconds.
 \end{itemize}
 \end{block}

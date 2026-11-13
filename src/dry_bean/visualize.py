@@ -191,13 +191,13 @@ def generate_all_visualizations(variance_df, X_pca_2d, results_dict):
     # Morphological descriptors for K-Means clusters (Config 2)
     kmeans_labels = results_dict["Config 2: K-Means (PCA 4D)"]["labels"]
     kmeans_descriptors = {
-        0: "Large Elongated",
-        1: "Small Oval (Dermason-type)",
-        2: "Large Oval (Cali/Barbunya)",
-        3: "Small Round (Seker-type)",
-        4: "Giant Broad (Bombay-type)",
-        5: "Medium Compact (Sira-type)",
-        6: "Long Cylindrical (Horoz-type)"
+        0: "Medium-Large Elongated",
+        1: "Small Compact Elliptical",
+        2: "Large Broad Oval",
+        3: "Small Compact Spherical",
+        4: "Giant Macroscopic",
+        5: "Medium Compact Oval",
+        6: "Long Cylindrical"
     }
     
     plot_2d_clusters(
